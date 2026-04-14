@@ -1,0 +1,1036 @@
+2026-03-06 09:27:27,693 - INFO - [__main__] - 测试接口:你好
+2026-03-06 09:37:18,987 - INFO - [app.ai.agent.system_agent] - 初始化系统智能体
+2026-03-06 09:37:18,990 - INFO - [app.ai.agent.system_agent] - 创建系统智能体实例成功
+2026-03-06 09:38:04,768 - INFO - [app.ai.agent.system_agent] - 系统智能体实例销毁成功
+2026-03-10 14:45:00,629 - INFO - [ai.agent.system_agent] - 初始化系统智能体
+2026-03-10 14:45:00,631 - INFO - [ai.agent.system_agent] - 创建系统智能体实例成功
+2026-03-10 14:45:36,016 - INFO - [ai.agent.system_agent] - 测试接口:你好
+2026-03-10 14:51:22,577 - INFO - [ai.agent.system_agent] - 系统智能体实例销毁成功
+2026-03-10 20:17:29,793 - INFO - [ai.agent.system_agent] - 初始化系统智能体
+2026-03-10 20:17:29,794 - INFO - [ai.agent.system_agent] - 创建系统智能体实例成功
+2026-03-10 20:21:19,087 - INFO - [ai.agent.system_agent] - 用户email='11' code='11'登录
+2026-03-10 20:21:24,774 - INFO - [ai.agent.system_agent] - 用户email='11' code='11'登录
+2026-03-10 20:24:24,001 - INFO - [ai.agent.system_agent] - 系统智能体实例销毁成功
+2026-03-12 10:55:54,324 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 11:00:33,233 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 11:03:11,769 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 11:05:39,089 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 11:05:41,428 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 11:05:43,836 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 11:05:44,773 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7382', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 11:58:24,340 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 11:58:25,254 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 13:46:59,597 - INFO - [app.ai.tool.mysql_tool] - 系统智能体实例销毁成功
+2026-03-12 13:47:07,099 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 13:47:07,897 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 13:47:12,865 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-12 13:47:15,909 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因: 邮件发送失败'}
+2026-03-12 13:49:01,833 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 13:49:03,896 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 13:49:04,913 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 13:54:42,270 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 13:54:44,626 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 13:54:45,700 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 13:54:58,203 - INFO - [app.ai.tool.mysql_tool] - 系统智能体实例销毁成功
+2026-03-12 13:55:04,289 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 13:55:05,134 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 13:55:28,651 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 13:55:30,676 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 13:55:31,950 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 13:56:23,269 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 13:56:25,301 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 13:56:26,315 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '8742', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 13:56:26,326 - INFO - [app.ai.tool.mysql_tool] - 用户email='2953903954@qq.com'请求发送验证码，结果: {'data': '8742', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 13:59:17,750 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 13:59:19,786 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 13:59:20,741 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '8742', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 13:59:20,743 - INFO - [app.ai.tool.mysql_tool] - 用户email='2953903954@qq.com'请求发送验证码，结果: {'data': '8742', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:31:50,080 - INFO - [app.ai.tool.mysql_tool] - 系统智能体实例销毁成功
+2026-03-12 15:32:00,537 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 15:32:01,778 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 15:32:49,266 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 15:32:50,635 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:32:51,489 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 15:32:52,401 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:32:52,402 - INFO - [app.ai.tool.mysql_tool] - 用户email='2953903954@qq.com'请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:33:06,639 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:34:26,749 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:34:52,888 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:35:04,422 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 15:35:06,642 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 15:35:07,744 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7382', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:35:07,745 - INFO - [app.ai.tool.mysql_tool] - 用户email='2953903954@qq.com'请求发送验证码，结果: {'data': '7382', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:35:15,377 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:35:34,272 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:37:53,552 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:40:11,720 - INFO - [app.ai.tool.mysql_tool] - 系统智能体实例销毁成功
+2026-03-12 15:40:18,249 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 15:40:19,130 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 15:40:28,148 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 15:40:30,222 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 15:40:31,173 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:40:31,176 - INFO - [app.ai.tool.mysql_tool] - 用户email='2953903954@qq.com'请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:41:10,456 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:41:49,230 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:45:40,431 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 15:45:42,578 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 15:45:43,462 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:45:43,462 - INFO - [app.ai.tool.mysql_tool] - 用户email='2953903954@qq.com'请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:45:53,045 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:46:37,898 - INFO - [app.ai.tool.mysql_tool] - 系统智能体实例销毁成功
+2026-03-12 15:46:44,643 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 15:46:45,521 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 15:46:49,945 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-12 15:46:52,015 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-12 15:46:52,902 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '8742', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:46:52,904 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '8742', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-12 15:47:05,642 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'8742'
+2026-03-12 15:50:15,999 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:50:23,348 - INFO - [app.ai.tool.mysql_tool] - 系统智能体实例销毁成功
+2026-03-12 15:50:30,694 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-12 15:50:31,598 - INFO - [app.ai.tool.mysql_tool] - 创建系统智能体实例成功
+2026-03-12 15:50:35,071 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:50:35,072 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-12 15:51:38,176 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:51:38,177 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-12 15:51:41,144 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-12 15:51:41,145 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-12 16:53:15,027 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((28,),)
+2026-03-12 17:08:01,777 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((28,),)
+2026-03-12 17:09:52,492 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((28,),)
+2026-03-12 17:11:45,412 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((28,),)
+2026-03-12 17:14:37,850 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-12 17:17:52,337 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-12 17:18:54,826 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-12 17:19:43,070 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-12 17:21:46,266 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-12 17:22:52,486 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-12 17:23:55,413 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 10:15:52,598 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 10:15:56,032 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 10:16:01,793 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 10:16:20,177 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 10:16:21,132 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 10:56:56,210 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 10:57:03,996 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 10:57:04,759 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 10:59:03,980 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-16 10:59:06,225 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-16 10:59:07,218 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-16 10:59:07,229 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-16 10:59:21,456 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'1234'
+2026-03-16 11:02:51,678 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-16 11:02:53,733 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-16 11:02:54,856 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-16 11:02:54,857 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-16 11:03:01,611 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'1234'
+2026-03-16 11:06:40,477 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 11:06:47,822 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 11:06:48,668 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 11:12:53,697 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 11:13:00,286 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 11:13:01,167 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 11:13:27,143 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 11:15:17,912 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 11:18:27,196 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 11:22:02,511 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 11:25:42,905 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 11:27:17,596 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 11:28:19,741 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 11:28:26,441 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 11:28:27,301 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 11:28:33,201 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 11:42:48,445 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('中国',),)
+2026-03-16 11:49:20,709 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 13:51:33,045 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 13:51:34,171 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 13:51:36,860 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 14:25:23,388 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 14:27:11,786 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 14:27:53,980 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 14:31:10,807 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 14:32:35,500 - INFO - [app.ai.tool.mysql_tool] - 系统/sql智能体实例销毁成功
+2026-03-16 14:32:47,334 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 14:32:48,234 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql智能体实例成功
+2026-03-16 14:33:03,607 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 14:36:57,451 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 15:00:17,524 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 15:07:09,507 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:07:10,473 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:07:15,861 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:08:00,682 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:08:01,697 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:08:05,377 - WARNING - [app.ai.tool.mysql_tool] - chat error: Psycopg cannot use the 'ProactorEventLoop' to run in async mode. Please use a compatible event loop, for instance by running 'asyncio.run(..., loop_factory=asyncio.SelectorEventLoop(selectors.SelectSelector()))'
+2026-03-16 15:10:29,525 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:10:42,280 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:10:43,175 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:10:56,644 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 15:14:08,109 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:14:14,004 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:14:14,941 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:16:38,244 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:16:44,173 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:16:45,071 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:16:50,541 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:16:51,498 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:27:36,449 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:27:42,644 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:27:43,680 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:29:16,546 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:29:21,985 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:29:22,817 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:29:28,459 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:29:33,744 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:29:34,584 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:29:50,990 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:29:56,244 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:29:57,048 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:30:10,587 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:30:16,000 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:30:16,921 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:30:31,266 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:30:36,568 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:30:37,468 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:31:16,107 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:31:21,384 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:31:22,296 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:35:32,362 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:35:37,993 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:35:38,939 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:36:17,169 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 15:36:23,176 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 15:36:24,029 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 15:38:27,734 - INFO - [__main__] - 查询结果: (('总经理',),)
+2026-03-16 16:31:28,098 - INFO - [app.ai.tool.mysql_tool] - 用户1开始执行任务
+2026-03-16 16:35:55,016 - INFO - [app.ai.tool.mysql_tool] - 用户1开始执行任务
+2026-03-16 16:35:55,067 - ERROR - [app.ai.tool.mysql_tool] - 用户不存在
+2026-03-16 16:36:27,608 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:36:28,601 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 16:38:45,821 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:38:46,815 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32, '中国'),)
+2026-03-16 16:43:23,534 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:43:23,570 - ERROR - [app.ai.tool.mysql_tool] - 用户无权限执行任务
+2026-03-16 16:44:21,887 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:44:23,125 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:45:29,009 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:45:30,301 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 16:45:46,468 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:45:46,493 - ERROR - [app.ai.tool.mysql_tool] - 用户无权限执行任务
+2026-03-16 16:45:46,494 - WARNING - [app.ai.tool.mysql_tool] - chat error: Object of type Exception is not JSON serializable
+2026-03-16 16:49:39,686 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:49:44,970 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:49:45,751 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:51:26,908 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:51:32,337 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:51:33,226 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:51:39,217 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:51:44,815 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:51:45,715 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:52:34,454 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:52:39,946 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:52:40,979 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:52:47,832 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:52:47,863 - ERROR - [app.ai.tool.mysql_tool] - 用户无权限执行任务
+2026-03-16 16:52:47,863 - WARNING - [app.ai.tool.mysql_tool] - my_chat_error: Object of type Exception is not JSON serializable
+2026-03-16 16:52:52,607 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:53:05,572 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:53:06,456 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:53:11,728 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 16:53:11,778 - ERROR - [app.ai.tool.mysql_tool] - 用户无权限执行任务
+2026-03-16 16:53:11,778 - WARNING - [app.ai.tool.mysql_tool] - my_chat_error: Object of type Exception is not JSON serializable
+2026-03-16 16:53:31,298 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:53:36,966 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:53:37,893 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:57:55,762 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:58:01,351 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:58:02,443 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:58:53,265 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:58:58,963 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:58:59,896 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 16:59:00,622 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 16:59:06,697 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 16:59:07,659 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 17:00:51,321 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 17:00:56,989 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 17:00:57,899 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 17:01:51,507 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 17:01:57,061 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 17:01:58,030 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 17:02:40,778 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 17:02:46,108 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 17:02:47,040 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg智能体实例成功
+2026-03-16 17:02:49,855 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg智能体实例销毁成功
+2026-03-16 17:22:19,758 - INFO - [app.ai.tool.mysql_tool] - 用户1开始执行任务
+2026-03-16 17:22:39,596 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 17:22:54,490 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 17:22:56,154 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-12-05', 14786.0), ('2023-12-08', 1299.0), ('2023-12-10', 18997.0), ('2023-12-12', 16999.0), ('2023-12-15', 9998.0), ('2023-12-18', 8498.0), ('2023-12-20', 2398.0), ('2023-12-25', 21298.0), ('2023-12-28', 11998.0), ('2023-12-30', 12999.0))
+2026-03-16 17:23:03,525 - INFO - [app.ai.tool.mysql_tool] - {'json': '{\\"title\\": {\\"text\\": \\"2023年12月每日销售金额\\"}, \\"tooltip\\": {\\"trigger\\": \\"axis\\"}, \\"toolbox\\": {\\"show\\": true, \\"feature\\": {\\"saveAsImage\\": {}}}, \\"xAxis\\": {\\"type\\": \\"category\\", \\"data\\": [\\"2023-12-05\\", \\"2023-12-08\\", \\"2023-12-10\\", \\"2023-12-12\\", \\"2023-12-15\\", \\"2023-12-18\\", \\"2023-12-20\\", \\"2023-12-25\\", \\"2023-12-28\\", \\"2023-12-30\\"]}, \\"yAxis\\": {\\"type\\": \\"value\\"}, \\"series\\": [{\\"name\\": \\"销售金额\\", \\"type\\": \\"bar\\", \\"data\\": [14786.0, 1299.0, 18997.0, 16999.0, 9998.0, 8498.0, 2398.0, 21298.0, 11998.0, 12999.0]}]}', 'code': '200', 'msg': '\\u751f\\u6210\\u6210\\u529f'}
+2026-03-16 19:03:52,103 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:03:53,400 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:04:06,306 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 19:04:07,958 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 19:04:13,164 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月每日订单销售金额"}, "tooltip": {"trigger": "axis"}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "xAxis": {"type": "category", "data": ["2023-09-05", "2023-09-08", "2023-09-12", "2023-09-15", "2023-09-18", "2023-09-20", "2023-09-22", "2023-09-25", "2023-09-28", "2023-09-30"]}, "yAxis": {"type": "value"}, "series": [{"name": "销售金额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0]}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-16 19:10:16,264 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 19:10:17,709 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 19:10:22,779 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月每日订单销售金额"}, "tooltip": {"trigger": "axis"}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "xAxis": {"type": "category", "data": ["2023-09-05", "2023-09-08", "2023-09-12", "2023-09-15", "2023-09-18", "2023-09-20", "2023-09-22", "2023-09-25", "2023-09-28", "2023-09-30"]}, "yAxis": {"type": "value"}, "series": [{"name": "销售金额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0]}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-16 19:13:31,506 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 19:13:33,265 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 19:13:38,370 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月每日订单销售金额"}, "tooltip": {"trigger": "axis"}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "xAxis": {"type": "category", "data": ["2023-09-05", "2023-09-08", "2023-09-12", "2023-09-15", "2023-09-18", "2023-09-20", "2023-09-22", "2023-09-25", "2023-09-28", "2023-09-30"]}, "yAxis": {"type": "value"}, "series": [{"name": "销售金额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0]}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-16 19:14:14,927 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 19:14:16,779 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 19:14:23,437 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月订单销售金额分布"}, "tooltip": {"trigger": "item", "formatter": "{a} <br/>{b}: {c} ({d}%)"}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "series": [{"name": "销售金额", "type": "pie", "radius": "50%", "data": [{"value": 999.0, "name": "2023-09-05"}, {"value": 6598.0, "name": "2023-09-08"}, {"value": 18999.0, "name": "2023-09-12"}, {"value": 2298.0, "name": "2023-09-15"}, {"value": 8999.0, "name": "2023-09-18"}, {"value": 3699.0, "name": "2023-09-20"}, {"value": 8998.0, "name": "2023-09-22"}, {"value": 31298.0, "name": "2023-09-25"}, {"value": 17298.0, "name": "2023-09-28"}, {"value": 1698.0, "name": "2023-09-30"}], "emphasis": {"itemStyle": {"shadowBlur": 10, "shadowOffsetX": 0, "shadowColor": "rgba(0, 0, 0, 0.5)"}}}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-16 19:14:34,555 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 19:14:36,189 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-16 19:19:41,265 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:19:50,315 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:19:51,429 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:19:53,184 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:19:58,550 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:19:59,422 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:20:15,147 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:20:20,803 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:20:21,730 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:20:27,593 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:20:28,658 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:21:08,214 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:21:14,054 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:21:14,976 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:22:19,333 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:22:24,566 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:22:25,664 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:23:15,715 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:23:21,442 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:23:22,277 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:23:52,108 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:23:57,792 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:23:58,702 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:24:35,127 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:24:40,373 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:24:41,210 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:25:29,797 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:25:35,455 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:25:36,400 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:25:41,845 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:25:42,748 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:26:16,695 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:26:22,013 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:26:22,892 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:26:42,136 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:26:47,391 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:26:48,382 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:27:06,752 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:27:12,392 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:27:13,241 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:27:32,752 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:27:38,270 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:27:39,111 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:28:28,150 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:28:33,688 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:28:34,746 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:28:42,038 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:28:47,074 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:28:48,052 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:28:59,695 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:29:05,054 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:29:05,926 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:29:28,511 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:29:34,207 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:29:35,130 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:30:00,950 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:30:07,219 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:30:08,150 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:30:15,235 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:30:21,154 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:30:22,227 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:31:01,440 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:31:06,816 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:31:07,632 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:31:23,233 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:31:29,258 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:31:30,431 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:32:24,191 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:32:29,676 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:32:30,582 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:34:14,175 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:34:19,549 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:34:20,380 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:35:06,256 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:35:11,362 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:35:12,460 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:35:46,984 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:35:52,434 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:35:53,209 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:36:10,997 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:36:17,003 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:36:17,921 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:36:23,264 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:36:24,175 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:36:29,341 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:36:30,203 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:36:52,690 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:36:58,499 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:36:59,584 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:37:09,072 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:37:14,076 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:37:14,933 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:38:00,533 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:38:06,228 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:38:07,144 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:38:27,276 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:38:33,347 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:38:34,246 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:38:47,168 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:38:52,962 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:38:53,908 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:39:10,685 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:39:16,228 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:39:17,157 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:39:38,600 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:39:44,259 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:39:45,114 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:39:48,037 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:39:53,137 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:39:53,984 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:40:29,605 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:40:35,310 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:40:36,290 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:40:53,477 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:40:59,278 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 19:41:00,264 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts智能体实例成功
+2026-03-16 19:41:04,717 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts智能体实例销毁成功
+2026-03-16 19:42:14,171 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 19:42:16,866 - INFO - [app.ai.tool.mysql_tool] - 用户1开始执行任务
+2026-03-16 19:42:16,961 - ERROR - [app.ai.tool.mysql_tool] - 用户不存在
+2026-03-16 19:42:35,088 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 19:42:36,615 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 19:42:38,455 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-16 19:42:40,506 - INFO - [app.ai.tool.mysql_tool] - {'table': {'column_name': ['order_date', 'daily_sales'], 'data': []}, 'result': 500, 'json': '{"code": 500, "msg": "生成失败", "data": {}}'}
+2026-03-16 20:23:44,251 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 20:23:45,184 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 20:23:45,185 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 20:24:11,357 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 20:24:13,372 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-16 20:24:22,517 - INFO - [app.ai.tool.mysql_tool] - {'table': {'column_name': ['order_date', 'daily_sales'], 'data': []}, 'result': 500, 'json': '{"code": 500, "msg": "生成失败", "data": {}}'}
+2026-03-16 20:24:50,746 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 20:24:52,479 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((4, 3, '2023-09-12', 9, 1, 18999.0, '银行卡', '已完成', 'MacBook Pro 16', '笔记本电脑'), (94, 91, '2023-09-28', 18, 1, 15999.0, '银行卡', '已完成', '佳能EOS R6 Mark II', '相机'), (31, 28, '2023-09-30', 30, 1, 1299.0, '微信支付', '已完成', '雷蛇黑寡妇键盘', '外设'), (13, 10, '2023-09-05', 31, 1, 999.0, '支付宝', '已完成', '三星990 Pro固态硬盘', '存储'), (64, 61, '2023-09-18', 34, 1, 8999.0, '银行卡', '已完成', '苹果iPad Pro', '平板'), (82, 79, '2023-09-15', 46, 1, 599.0, '微信支付', '已完成', '索尼游戏手柄', '游戏配件'), (36, 33, '2023-09-25', 48, 1, 1299.0, '微信支付', '已完成', '赛睿游戏耳机', '游戏配件'), (19, 16, '2023-09-22', 50, 1, 2999.0, '支付宝', '已完成', '文石阅读器', '阅读器'), (52, 49, '2023-09-28', 52, 1, 1299.0, '微信支付', '已完成', '小米路由器AX9000', '网络'), (26, 23, '2023-09-15', 59, 1, 1699.0, '支付宝', '已完成', '爱普生打印机', '办公'))
+2026-03-16 20:25:33,847 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': 1, 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:20:53,388 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:20:58,199 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]},"toolbox": {"show": true, "feature": {"saveAsImage": {}}}}', 'code': 200, 'msg': '生成成功'}
+2026-03-16 22:21:16,819 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:21:19,195 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((4, 3, '2023-09-12', 9, 1, 18999.0, '银行卡', '已完成', 'MacBook Pro 16', '笔记本电脑'), (94, 91, '2023-09-28', 18, 1, 15999.0, '银行卡', '已完成', '佳能EOS R6 Mark II', '相机'), (31, 28, '2023-09-30', 30, 1, 1299.0, '微信支付', '已完成', '雷蛇黑寡妇键盘', '外设'), (13, 10, '2023-09-05', 31, 1, 999.0, '支付宝', '已完成', '三星990 Pro固态硬盘', '存储'), (64, 61, '2023-09-18', 34, 1, 8999.0, '银行卡', '已完成', '苹果iPad Pro', '平板'), (82, 79, '2023-09-15', 46, 1, 599.0, '微信支付', '已完成', '索尼游戏手柄', '游戏配件'), (36, 33, '2023-09-25', 48, 1, 1299.0, '微信支付', '已完成', '赛睿游戏耳机', '游戏配件'), (19, 16, '2023-09-22', 50, 1, 2999.0, '支付宝', '已完成', '文石阅读器', '阅读器'), (52, 49, '2023-09-28', 52, 1, 1299.0, '微信支付', '已完成', '小米路由器AX9000', '网络'), (26, 23, '2023-09-15', 59, 1, 1699.0, '支付宝', '已完成', '爱普生打印机', '办公'))
+2026-03-16 22:21:34,680 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': 1, 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:26:34,109 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 22:26:39,998 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 22:26:40,984 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 22:26:40,985 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 22:30:35,684 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:31:03,408 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年9月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括笔记本电脑、相机、外设、存储设备、平板、游戏配件、阅读器、网络设备和办公设备。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到18999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如MacBook Pro 16（18999.0元）和佳能EOS R6 Mark II相机（15999.0元），是销售额的主要贡献者。\n        中低价位商品如游戏手柄（599.0元）、固态硬盘（999.0元）等则更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如MacBook Pro和佳能相机，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        笔记本电脑和平板类属于高技术含量、高单价品类，客户群体可能更注重性能与品牌，支付方式也更倾向银行卡。\n        游戏配件、外设和网络设备等品类单价较低，购买决策周期短，移动支付占比更高。\n\n二、结论部分\n    1 销售趋势：\n        2023年9月的销售呈现多元化特征，覆盖多个电子消费领域，高端产品拉动整体销售额增长明显。\n        完成率100%表明供应链、物流及售后服务体系运行稳定。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        不同商品类别的销售表现反映了目标用户的多样化需求，尤其是科技爱好者和办公人群。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式。', 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:39:04,765 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:39:11,412 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]},"toolbox": {"show": true, "feature": {"saveAsImage": {}}}}', 'code': 200, 'msg': '生成成功'}
+2026-03-16 22:39:19,307 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:39:49,646 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年9月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括笔记本电脑、相机、外设、存储设备、平板、游戏配件、阅读器、网络设备和办公设备。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到18999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如MacBook Pro 16（18999.0元）和佳能EOS R6 Mark II相机（15999.0元），是销售额的主要贡献者。\n        中低价位商品如游戏手柄（599.0元）、固态硬盘（999.0元）等则更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如MacBook Pro和佳能相机，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        笔记本电脑和平板类属于高技术含量、高单价品类，客户群体可能更注重性能与品牌，支付方式也更倾向银行卡。\n        游戏配件、外设和网络设备等品类单价较低，购买决策周期短，移动支付占比更高。\n\n二、结论部分\n    1 销售趋势：\n        2023年9月的销售呈现多元化特征，覆盖多个电子消费领域，高端产品拉动整体销售额增长明显。\n        完成率100%表明供应链、物流及售后服务体系运行稳定。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        不同商品类别的销售表现反映了目标用户的多样化需求，尤其是科技爱好者和办公人群。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式。', 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:42:26,437 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 22:42:31,854 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 22:42:32,754 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 22:42:32,755 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 22:42:52,039 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 22:42:57,520 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 22:42:58,357 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 22:42:58,358 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 22:43:09,814 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 22:43:23,168 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 22:43:24,056 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 22:43:24,057 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 22:45:02,482 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:45:32,468 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年9月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括笔记本电脑、相机、外设、存储设备、平板、游戏配件、阅读器、网络设备和办公设备。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到18999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如MacBook Pro 16（18999.0元）和佳能EOS R6 Mark II相机（15999.0元），是销售额的主要贡献者。\n        中低价位商品如游戏手柄（599.0元）、固态硬盘（999.0元）等则更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如MacBook Pro和佳能相机，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        笔记本电脑和平板类属于高技术含量、高单价品类，客户群体可能更注重性能与品牌，支付方式也更倾向银行卡。\n        游戏配件、外设和网络设备等品类单价较低，购买决策周期短，移动支付占比更高。\n\n二、结论部分\n    1 销售趋势：\n        2023年9月的销售呈现多元化特征，覆盖多个电子消费领域，高端产品拉动整体销售额增长明显。\n        完成率100%表明供应链、物流及售后服务体系运行稳定。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        不同商品类别的销售表现反映了目标用户的多样化需求，尤其是科技爱好者和办公人群。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式。', 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:54:55,456 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:55:21,135 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年9月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括笔记本电脑、相机、外设、存储设备、平板、游戏配件、阅读器、网络设备和办公设备。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到18999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如MacBook Pro 16（18999.0元）和佳能EOS R6 Mark II相机（15999.0元），是销售额的主要贡献者。\n        中低价位商品如游戏手柄（599.0元）、固态硬盘（999.0元）等则更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如MacBook Pro和佳能相机，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        笔记本电脑和平板类属于高技术含量、高单价品类，客户群体可能更注重性能与品牌，支付方式也更倾向银行卡。\n        游戏配件、外设和网络设备等品类单价较低，购买决策周期短，移动支付占比更高。\n\n二、结论部分\n    1 销售趋势：\n        2023年9月的销售呈现多元化特征，覆盖多个电子消费领域，高端产品拉动整体销售额增长明显。\n        完成率100%表明供应链、物流及售后服务体系运行稳定。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        不同商品类别的销售表现反映了目标用户的多样化需求，尤其是科技爱好者和办公人群。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式。', 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:57:24,304 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 22:57:29,595 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 22:57:30,498 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 22:57:30,498 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 22:57:48,622 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:58:20,624 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年9月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括笔记本电脑、相机、外设、存储设备、平板、游戏配件、阅读器、网络设备和办公设备。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到18999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如MacBook Pro 16（18999.0元）和佳能EOS R6 Mark II相机（15999.0元），是销售额的主要贡献者。\n        中低价位商品如游戏手柄（599.0元）、固态硬盘（999.0元）等则更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如MacBook Pro和佳能相机，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        笔记本电脑和平板类属于高技术含量、高单价品类，客户群体可能更注重性能与品牌，支付方式也更倾向银行卡。\n        游戏配件、外设和网络设备等品类单价较低，购买决策周期短，移动支付占比更高。\n\n二、结论部分\n    1 销售趋势：\n        2023年9月的销售呈现多元化特征，覆盖多个电子消费领域，高端产品拉动整体销售额增长明显。\n        完成率100%表明供应链、物流及售后服务体系运行稳定。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        不同商品类别的销售表现反映了目标用户的多样化需求，尤其是科技爱好者和办公人群。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式。', 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 22:59:43,443 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 22:59:48,764 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((1, 1, '2023-11-15', 1, 1, 7999.0, '支付宝', '已完成', 'iPhone 15 Pro', '手机'), (10, 7, '2023-11-22', 2, 1, 6999.0, '支付宝', '已完成', '华为Mate 60 Pro', '手机'), (15, 12, '2023-11-08', 3, 1, 6499.0, '支付宝', '已完成', '小米14 Ultra', '手机'), (27, 24, '2023-11-20', 7, 1, 8999.0, '银行卡', '已完成', '戴尔XPS 13', '笔记本电脑'), (78, 75, '2023-11-22', 16, 1, 1499.0, '微信支付', '已完成', '华为FreeBuds Pro 3', '耳机'), (32, 29, '2023-11-15', 26, 1, 19999.0, '银行卡', '已完成', '索尼85英寸电视', '电视'), (5, 3, '2023-11-30', 29, 1, 899.0, '微信支付', '已完成', '罗技MX Master 3S鼠标', '外设'), (48, 45, '2023-11-30', 32, 1, 599.0, '微信支付', '已完成', '西部数据机械硬盘', '存储'), (66, 63, '2023-11-28', 43, 1, 899.0, '微信支付', '已完成', '飞利浦电动牙刷', '个护'), (22, 19, '2023-11-05', 55, 1, 999.0, '微信支付', '已完成', '小米Sound Pro', '音响'))
+2026-03-16 23:00:21,828 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '1', 'user_id': '1', 'order_date': '2023-11-15', 'product_id': '1', 'quantity': '1', 'total_amount': '7999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': 'iPhone 15 Pro', 'category': '手机'}, {'order_id': '10', 'user_id': '7', 'order_date': '2023-11-22', 'product_id': '2', 'quantity': '1', 'total_amount': '6999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '华为Mate 60 Pro', 'category': '手机'}, {'order_id': '15', 'user_id': '12', 'order_date': '2023-11-08', 'product_id': '3', 'quantity': '1', 'total_amount': '6499.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '小米14 Ultra', 'category': '手机'}, {'order_id': '27', 'user_id': '24', 'order_date': '2023-11-20', 'product_id': '7', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '戴尔XPS 13', 'category': '笔记本电脑'}, {'order_id': '78', 'user_id': '75', 'order_date': '2023-11-22', 'product_id': '16', 'quantity': '1', 'total_amount': '1499.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '华为FreeBuds Pro 3', 'category': '耳机'}, {'order_id': '32', 'user_id': '29', 'order_date': '2023-11-15', 'product_id': '26', 'quantity': '1', 'total_amount': '19999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '索尼85英寸电视', 'category': '电视'}, {'order_id': '5', 'user_id': '3', 'order_date': '2023-11-30', 'product_id': '29', 'quantity': '1', 'total_amount': '899.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '罗技MX Master 3S鼠标', 'category': '外设'}, {'order_id': '48', 'user_id': '45', 'order_date': '2023-11-30', 'product_id': '32', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '西部数据机械硬盘', 'category': '存储'}, {'order_id': '66', 'user_id': '63', 'order_date': '2023-11-28', 'product_id': '43', 'quantity': '1', 'total_amount': '899.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '飞利浦电动牙刷', 'category': '个护'}, {'order_id': '22', 'user_id': '19', 'order_date': '2023-11-05', 'product_id': '55', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米Sound Pro', 'category': '音响'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年11月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括手机、笔记本电脑、耳机、电视、外设、存储设备、个护和音响等。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到19999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如索尼85英寸电视（19999.0元）和戴尔XPS 13（8999.0元），是销售额的主要贡献者。\n        中低价位商品如电动牙刷（899.0元）、机械硬盘（599.0元）等更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如索尼电视和戴尔笔记本，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        手机类商品集中度高，iPhone 15 Pro、华为Mate 60 Pro、小米14 Ultra均属旗舰机型，表明消费者在11月对高端智能手机有较强购买意愿。\n        智能家居与影音类产品（如电视、音响）也占比较高，可能受“双十一”促销活动影响，推动了家庭娱乐设备的销量增长。\n\n二、结论部分\n    1 销售趋势：\n        2023年11月的销售明显受到购物节（如双11）影响，呈现出促销驱动型特征，高端电子产品和智能设备成为销售主力。\n        完成率100%表明供应链、物流及售后服务体系在大促期间仍保持高效运转。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        消费者对品牌旗舰手机和家庭影音设备关注度高，显示出消费升级趋势。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式，并为下一轮大促制定精准营销策略。', 'json': '{"title": {"text": "2023年11月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["iPhone 15 Pro", "华为Mate 60 Pro", "小米14 Ultra", "戴尔XPS 13", "华为FreeBuds Pro 3", "索尼85英寸电视", "罗技MX Master 3S鼠标", "西部数据机械硬盘", "飞利浦电动牙刷", "小米Sound Pro"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [7999.0, 6999.0, 6499.0, 8999.0, 1499.0, 19999.0, 899.0, 599.0, 899.0, 999.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 23:02:24,562 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 23:02:27,723 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 23:02:28,121 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 23:02:28,121 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 23:03:23,669 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-16 23:03:26,446 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-16 23:03:26,915 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-16 23:03:26,915 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze智能体实例成功
+2026-03-16 23:16:43,012 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 23:16:54,594 - ERROR - [app.ai.tool.mysql_tool] - Connection error.
+2026-03-16 23:17:57,184 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-16 23:18:03,066 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((4, 3, '2023-09-12', 9, 1, 18999.0, '银行卡', '已完成', 'MacBook Pro 16', '笔记本电脑'), (94, 91, '2023-09-28', 18, 1, 15999.0, '银行卡', '已完成', '佳能EOS R6 Mark II', '相机'), (31, 28, '2023-09-30', 30, 1, 1299.0, '微信支付', '已完成', '雷蛇黑寡妇键盘', '外设'), (13, 10, '2023-09-05', 31, 1, 999.0, '支付宝', '已完成', '三星990 Pro固态硬盘', '存储'), (64, 61, '2023-09-18', 34, 1, 8999.0, '银行卡', '已完成', '苹果iPad Pro', '平板'), (82, 79, '2023-09-15', 46, 1, 599.0, '微信支付', '已完成', '索尼游戏手柄', '游戏配件'), (36, 33, '2023-09-25', 48, 1, 1299.0, '微信支付', '已完成', '赛睿游戏耳机', '游戏配件'), (19, 16, '2023-09-22', 50, 1, 2999.0, '支付宝', '已完成', '文石阅读器', '阅读器'), (52, 49, '2023-09-28', 52, 1, 1299.0, '微信支付', '已完成', '小米路由器AX9000', '网络'), (26, 23, '2023-09-15', 59, 1, 1699.0, '支付宝', '已完成', '爱普生打印机', '办公'))
+2026-03-16 23:18:25,427 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '\n一、详细分析\n    1 订单概况：\n        在2023年9月期间，共查询到10条订单数据（实际应以完整数据为准，此处为前10条），涵盖多个商品类别，包括笔记本电脑、相机、外设、存储设备、平板、游戏配件、阅读器、网络设备和办公设备。\n        所有订单状态均为“已完成”，说明该时间段内订单履约情况良好，无取消或失败订单。\n\n    2 销售金额分布：\n        订单金额从599.0元到18999.0元不等，价格跨度较大，显示出高价值与中低端产品并存的销售结构。\n        高单价商品主要集中在高端电子产品，如MacBook Pro 16（18999.0元）和佳能EOS R6 Mark II相机（15999.0元），是销售额的主要贡献者。\n        中低价位商品如游戏手柄（599.0元）、固态硬盘（999.0元）等则更偏向日常消费型购买行为。\n\n    3 支付方式偏好：\n        银行卡支付主要用于大额交易，例如MacBook Pro和佳能相机，反映出用户对大额支付的安全性和信用额度需求。\n        微信支付和支付宝广泛用于中低金额订单，体现其在便捷性上的优势，符合小额高频支付习惯。\n\n    4 商品类别分析：\n        笔记本电脑和平板类属于高技术含量、高单价品类，客户群体可能更注重性能与品牌，支付方式也更倾向银行卡。\n        游戏配件、外设和网络设备等品类单价较低，购买决策周期短，移动支付占比更高。\n\n二、结论部分\n    1 销售趋势：\n        2023年9月的销售呈现多元化特征，覆盖多个电子消费领域，高端产品拉动整体销售额增长明显。\n        完成率100%表明供应链、物流及售后服务体系运行稳定。\n\n    2 用户行为洞察：\n        用户在购买高价商品时更信任银行卡支付，而在中低价商品上偏好微信/支付宝等快捷支付方式。\n        不同商品类别的销售表现反映了目标用户的多样化需求，尤其是科技爱好者和办公人群。\n\n    3 建议方向：\n        可针对高端产品推出银行卡分期免息活动，进一步促进转化。\n        对于中低端商品，可加强微信/支付宝的营销联动（如红包补贴），提升复购率。\n        后续可结合用户画像进行细分分析，识别高价值客户群体的购买模式。', 'json': '{"title": {"text": "2023年9月订单销售情况"},"tooltip": {},"xAxis": {"type": "category","data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]},"yAxis": {},"series": [{"name": "销售额", "type": "bar", "data": [18999.0, 15999.0, 1299.0, 999.0, 8999.0, 599.0, 1299.0, 2999.0, 1299.0, 1699.0]}],"legend": {"data": ["销售额"]}}'}
+2026-03-16 23:18:48,771 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze智能体实例销毁成功
+2026-03-17 09:54:06,957 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 09:56:12,569 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 09:57:09,946 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 10:03:43,092 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 10:07:12,552 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 10:07:13,411 - INFO - [app.ai.tool.docx_read_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\report.docx
+2026-03-17 10:11:50,144 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 10:11:51,059 - INFO - [app.ai.tool.docx_read_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test.docx
+2026-03-17 10:30:45,615 - INFO - [app.ai.tool.docx_read_tool] - 初始化智能分析智能体
+2026-03-17 10:30:46,647 - INFO - [app.ai.tool.docx_read_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 10:45:49,081 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:45:52,943 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:45:52,943 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:45:52,944 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:49:01,566 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 10:49:09,267 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:49:12,719 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:49:12,719 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:49:12,719 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:51:00,202 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 10:51:07,108 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:51:10,728 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:51:10,729 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:51:10,729 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:51:49,941 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 10:52:05,134 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:52:08,904 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:52:08,904 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:52:08,905 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:52:48,640 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\test_table.docx
+2026-03-17 10:52:48,717 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 10:54:14,169 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:54:15,444 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:54:15,444 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:54:15,445 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:54:15,669 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 10:54:16,117 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 10:54:17,216 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 10:55:09,682 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 10:55:15,635 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:55:16,605 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:55:16,606 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:55:16,607 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:55:20,771 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 10:55:35,016 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 10:55:36,047 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:55:36,048 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 10:55:36,048 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 10:55:55,361 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\test_table.docx
+2026-03-17 10:55:55,419 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 11:00:18,539 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 11:00:53,040 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 11:00:54,018 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 11:00:54,018 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 11:00:54,018 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 11:01:13,912 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 11:01:14,808 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 11:01:14,808 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 11:01:14,808 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 11:01:22,716 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\test_table.docx
+2026-03-17 11:01:22,769 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-17 11:03:51,533 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\report.docx
+2026-03-17 11:03:51,562 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\report.docx
+2026-03-17 13:47:15,404 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 13:47:24,692 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 13:47:25,860 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:47:25,861 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:47:25,861 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 13:47:58,108 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 13:48:03,176 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 13:48:04,016 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:48:04,016 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:48:04,018 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 13:53:40,680 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 13:53:45,776 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 13:53:46,788 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:53:46,790 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:53:46,790 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 13:53:52,127 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 13:53:57,555 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 13:53:58,616 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:53:58,618 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:53:58,618 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 13:53:59,112 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file智能体实例销毁成功
+2026-03-17 13:54:04,224 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 13:54:05,021 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:54:05,021 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 13:54:05,021 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file智能体实例成功
+2026-03-17 14:21:05,209 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 14:21:11,416 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:21:14,672 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:21:20,997 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:21:23,794 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"dates": [], "sales": [], "channels": [], "top_names": [], "top_values": []}', 'message': '2023年3月无销售数据'}
+2026-03-17 14:25:19,780 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 14:25:22,859 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:22,861 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:22,865 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:26,311 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:26,323 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('Online', 0), ('Offline', 0))
+2026-03-17 14:25:26,328 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:29,077 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:29,077 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:29,087 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:31,898 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:31,904 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:31,908 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-17 14:25:33,164 - INFO - [app.ai.tool.mysql_tool] - {'code': 500, 'data': '', 'message': '无法获取有效数据，可能数据库查询为空或SQL执行失败，请检查数据表和查询条件。'}
+2026-03-17 14:26:58,227 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 14:27:01,082 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 5697.0), ('银行卡', 79995.0), ('微信支付', 15192.0))
+2026-03-17 14:27:01,082 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-17 14:27:01,082 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-17 14:27:09,109 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://127.0.0.1:4836/static/dashboard/dashboard_1773728827.html', 'message': '仪表盘已生成，包含销售额趋势、渠道占比和Top10商品数据。'}
+2026-03-17 19:33:28,581 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 19:33:32,007 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-17 19:33:32,009 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 5697.0), ('银行卡', 79995.0), ('微信支付', 15192.0))
+2026-03-17 19:33:32,012 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-17 19:33:40,955 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773747219.html', 'message': '仪表盘已生成，包含2023年9月每日销售额趋势、支付渠道占比及Top10热销商品分析。'}
+2026-03-17 19:47:15,111 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 19:47:16,379 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:47:16,379 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:47:16,379 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 19:48:03,775 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 19:48:06,995 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 3, 5697.0), ('银行卡', 5, 79995.0), ('微信支付', 8, 15192.0))
+2026-03-17 19:48:06,996 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', Decimal('1'), 29999.0), ('MacBook Pro 16', Decimal('1'), 18999.0), ('佳能EOS R6 Mark II', Decimal('1'), 15999.0), ('苹果iPad Pro', Decimal('1'), 8999.0), ('OPPO Find X7 Ultra', Decimal('1'), 5999.0), ('科沃斯扫地机器人', Decimal('1'), 4999.0), ('小米迷你主机', Decimal('1'), 3699.0), ('文石阅读器', Decimal('1'), 2999.0), ('爱普生打印机', Decimal('1'), 1699.0), ('小米智能门锁', Decimal('1'), 1599.0))
+2026-03-17 19:48:06,997 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 1, 999.0), ('2023-09-08', 2, 6598.0), ('2023-09-12', 1, 18999.0), ('2023-09-15', 2, 2298.0), ('2023-09-18', 1, 8999.0), ('2023-09-20', 1, 3699.0), ('2023-09-22', 2, 8998.0), ('2023-09-25', 2, 31298.0), ('2023-09-28', 2, 17298.0), ('2023-09-30', 2, 1698.0))
+2026-03-17 19:49:11,690 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-17 19:49:17,612 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 19:49:18,697 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:49:18,698 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:49:18,698 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 19:49:20,650 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-17 19:49:25,938 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 19:49:26,900 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:49:26,901 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:49:26,901 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 19:58:04,351 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 19:58:07,990 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 3, 5697.0), ('银行卡', 5, 79995.0), ('微信支付', 8, 15192.0))
+2026-03-17 19:58:07,992 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 1, 999.0), ('2023-09-08', 2, 6598.0), ('2023-09-12', 1, 18999.0), ('2023-09-15', 2, 2298.0), ('2023-09-18', 1, 8999.0), ('2023-09-20', 1, 3699.0), ('2023-09-22', 2, 8998.0), ('2023-09-25', 2, 31298.0), ('2023-09-28', 2, 17298.0), ('2023-09-30', 2, 1698.0))
+2026-03-17 19:58:07,993 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', Decimal('1'), 29999.0), ('MacBook Pro 16', Decimal('1'), 18999.0), ('佳能EOS R6 Mark II', Decimal('1'), 15999.0), ('苹果iPad Pro', Decimal('1'), 8999.0), ('OPPO Find X7 Ultra', Decimal('1'), 5999.0), ('科沃斯扫地机器人', Decimal('1'), 4999.0), ('小米迷你主机', Decimal('1'), 3699.0), ('文石阅读器', Decimal('1'), 2999.0), ('爱普生打印机', Decimal('1'), 1699.0), ('小米智能门锁', Decimal('1'), 1599.0))
+2026-03-17 19:58:51,018 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-17 19:59:03,985 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 19:59:04,985 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:59:04,985 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 19:59:04,986 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 19:59:40,391 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 19:59:43,545 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 1, 999.0), ('2023-09-08', 2, 6598.0), ('2023-09-12', 1, 18999.0), ('2023-09-15', 2, 2298.0), ('2023-09-18', 1, 8999.0), ('2023-09-20', 1, 3699.0), ('2023-09-22', 2, 8998.0), ('2023-09-25', 2, 31298.0), ('2023-09-28', 2, 17298.0), ('2023-09-30', 2, 1698.0))
+2026-03-17 19:59:43,550 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 3, 5697.0), ('银行卡', 5, 79995.0), ('微信支付', 8, 15192.0))
+2026-03-17 19:59:43,552 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', Decimal('1'), 29999.0), ('MacBook Pro 16', Decimal('1'), 18999.0), ('佳能EOS R6 Mark II', Decimal('1'), 15999.0), ('苹果iPad Pro', Decimal('1'), 8999.0), ('OPPO Find X7 Ultra', Decimal('1'), 5999.0), ('科沃斯扫地机器人', Decimal('1'), 4999.0), ('小米迷你主机', Decimal('1'), 3699.0), ('文石阅读器', Decimal('1'), 2999.0), ('爱普生打印机', Decimal('1'), 1699.0), ('小米智能门锁', Decimal('1'), 1599.0))
+2026-03-17 20:01:29,522 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-17 20:01:34,781 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 20:01:35,608 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:01:35,609 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:01:35,609 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 20:01:40,930 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 20:01:41,737 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:01:41,738 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:01:41,738 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 20:02:01,372 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 20:02:02,290 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:02:02,290 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:02:02,291 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 20:02:17,931 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 20:02:22,243 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 1, 999.0), ('2023-09-08', 2, 6598.0), ('2023-09-12', 1, 18999.0), ('2023-09-15', 2, 2298.0), ('2023-09-18', 1, 8999.0), ('2023-09-20', 1, 3699.0), ('2023-09-22', 2, 8998.0), ('2023-09-25', 2, 31298.0), ('2023-09-28', 2, 17298.0), ('2023-09-30', 2, 1698.0))
+2026-03-17 20:02:22,243 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 5697.0), ('银行卡', 79995.0), ('微信支付', 15192.0))
+2026-03-17 20:02:22,245 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-17 20:02:34,574 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773748951.html', 'message': '仪表盘已生成，包含2023年9月每日销售趋势、支付方式占比和Top10热销商品分析。'}
+2026-03-17 20:05:10,222 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 20:05:15,255 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 1, 999.0), ('2023-09-08', 2, 6598.0), ('2023-09-12', 1, 18999.0), ('2023-09-15', 2, 2298.0), ('2023-09-18', 1, 8999.0), ('2023-09-20', 1, 3699.0), ('2023-09-22', 2, 8998.0), ('2023-09-25', 2, 31298.0), ('2023-09-28', 2, 17298.0), ('2023-09-30', 2, 1698.0))
+2026-03-17 20:05:15,260 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 5697.0), ('银行卡', 79995.0), ('微信支付', 15192.0))
+2026-03-17 20:05:15,266 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-17 20:05:26,264 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773749123.html', 'message': '仪表盘已生成，包含2023年9月每日销售额趋势、支付渠道占比及Top10热销商品分析。'}
+2026-03-17 20:19:51,108 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-17 20:19:55,363 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 1, 999.0), ('2023-09-08', 2, 6598.0), ('2023-09-12', 1, 18999.0), ('2023-09-15', 2, 2298.0), ('2023-09-18', 1, 8999.0), ('2023-09-20', 1, 3699.0), ('2023-09-22', 2, 8998.0), ('2023-09-25', 2, 31298.0), ('2023-09-28', 2, 17298.0), ('2023-09-30', 2, 1698.0))
+2026-03-17 20:19:55,386 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 5697.0), ('银行卡', 79995.0), ('微信支付', 15192.0))
+2026-03-17 20:19:55,388 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-17 20:20:06,922 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773750004.html', 'message': '仪表盘已生成，包含2023年9月每日销售额趋势、支付渠道占比及Top10热销商品分析。'}
+2026-03-17 20:22:50,227 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-17 20:22:55,419 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 20:22:56,273 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:22:56,274 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:22:56,274 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-17 20:23:08,389 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-17 20:23:13,847 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-17 20:23:15,392 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:23:15,393 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-17 20:23:15,396 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 08:49:46,819 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 09:36:11,296 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 09:36:14,921 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 09:36:14,921 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 09:36:14,921 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:21:33,977 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:21:35,251 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:21:35,251 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:21:35,251 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:21:37,611 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:21:40,001 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-18 10:21:41,051 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-18 10:21:41,089 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '1234', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-18 10:22:33,872 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:22:39,251 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:22:40,088 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:22:40,089 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:22:40,089 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:22:51,111 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:22:56,123 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:22:57,007 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:22:57,007 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:22:57,007 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:23:02,222 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-18 10:23:02,224 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-18 10:23:06,380 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:07,666 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:09,084 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:10,287 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:11,346 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:12,440 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:13,587 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:14,632 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:15,628 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:16,754 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:17,797 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:23:18,822 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:08,306 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:09,363 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:10,841 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:11,883 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:13,727 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('user_id', 'bigint(20)', 'YES', '', None, ''), ('username', 'text', 'YES', '', None, ''), ('registration_date', 'text', 'YES', '', None, ''), ('country', 'text', 'YES', '', None, ''), ('age', 'bigint(20)', 'YES', '', None, ''), ('gender', 'text', 'YES', '', None, ''), ('total_spent', 'double', 'YES', '', None, ''), ('order_count', 'bigint(20)', 'YES', '', None, ''))
+2026-03-18 10:30:14,786 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:15,787 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:16,968 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:18,512 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:19,804 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-18 10:30:28,391 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:30:43,454 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:30:44,491 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:30:44,491 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:30:44,491 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:31:06,888 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '0', 'code': '500', 'msg': '验证码 0 ,状态码 500，失败原因为邮箱未注册'}
+2026-03-18 10:31:06,890 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '0', 'code': '500', 'msg': '验证码 0 ,状态码 500，失败原因为邮箱未注册'}
+2026-03-18 10:33:11,912 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:33:17,479 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:33:18,396 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:33:18,396 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:33:18,396 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:33:37,915 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:33:43,752 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:33:44,799 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:33:44,799 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:33:44,800 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:33:59,653 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:34:05,695 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:06,654 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:06,654 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:06,654 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:34:09,303 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:34:15,127 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:16,099 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:16,100 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:16,100 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:34:22,281 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:23,316 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:23,318 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:23,318 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:34:24,707 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:34:31,148 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:32,260 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:32,261 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:32,261 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:34:38,527 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:39,552 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:39,552 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:39,552 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:34:45,628 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:46,574 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:46,576 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:46,576 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:34:52,641 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:34:53,624 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:53,624 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:34:53,624 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:36:30,784 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 10:36:48,296 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 10:36:49,413 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:36:49,415 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 10:36:49,415 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 10:36:53,945 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-18 10:36:56,183 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-18 10:36:57,079 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7382', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-18 10:36:57,083 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '7382', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-18 10:37:04,046 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'7382'
+2026-03-18 10:37:14,362 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 10:37:18,816 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-18 10:37:18,842 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-18 10:37:30,135 - INFO - [app.ai.tool.mysql_tool] - {'json': '{\\"title\\": {\\"text\\": \\"2023年9月每日销售额柱状图\\"}, \\"tooltip\\": {}, \\"xAxis\\": {\\"type\\": \\"category\\", \\"data\\": [\\"2023-09-05\\", \\"2023-09-08\\", \\"2023-09-12\\", \\"2023-09-15\\", \\"2023-09-18\\", \\"2023-09-20\\", \\"2023-09-22\\", \\"2023-09-25\\", \\"2023-09-28\\", \\"2023-09-30\\"]}, \\"yAxis\\": {\\"type\\": \\"value\\"}, \\"series\\": [{\\"name\\": \\"销售额\\", \\"type\\": \\"bar\\", \\"data\\": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0], \\"itemStyle\\": {\\"color\\": \'#5470c6\'}}], \\"toolbox\\": {\\"show\\": true, \\"feature\\": {\\"saveAsImage\\": {}}}}', 'code': 200, 'msg': '\\u751f\\u6210\\u6210\\u529f'}
+2026-03-18 10:54:16,391 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 10:54:17,725 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-18 10:54:25,298 - INFO - [app.ai.tool.mysql_tool] - {'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "柱状图" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["每日销售额"] }, "grid": { "left": "3%", "right": "4%", "bottom": "3%", "containLabel": true }, "xAxis": [ { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "axisLabel": { "rotate": 45 } } ], "yAxis": [ { "type": "value", "name": "销售额 (元)", "axisLabel": { "formatter": "{value}" } } ], "series": [ { "name": "每日销售额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0], "itemStyle": { "color": "#5470C6" }, "emphasis": { "itemStyle": { "color": "#446CB3" } } } ], "toolbox": { "show": true, "orient": "vertical", "left": "right", "top": "center", "feature": { "saveAsImage": { "show": true, "title": "保存图片" } } } }', 'code': 200, 'msg': '生成成功'}
+2026-03-18 10:54:51,996 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 10:54:53,556 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-18 10:54:58,481 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773802496.html', 'message': '已成功生成2023年9月订单销售情况分析仪表盘，包含每日销售额柱状图。'}
+2026-03-18 11:04:57,779 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:05:03,552 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:05:04,505 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:05:04,506 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:05:04,506 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:05:36,500 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:05:37,404 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:05:37,404 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:05:37,404 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:06:09,691 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:06:10,865 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 4999.0), ('2023-09-08', 1599.0), ('2023-09-12', 18999.0), ('2023-09-15', 1699.0), ('2023-09-15', 599.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 2999.0), ('2023-09-22', 5999.0), ('2023-09-25', 1299.0), ('2023-09-25', 29999.0), ('2023-09-28', 1299.0), ('2023-09-28', 15999.0), ('2023-09-30', 1299.0), ('2023-09-30', 399.0))
+2026-03-18 11:06:12,380 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('相机', 15999.0), ('外设', 1299.0), ('存储', 999.0), ('平板', 8999.0), ('游戏配件', 1898.0), ('阅读器', 2999.0), ('网络', 1299.0), ('办公', 1699.0), ('手机', 5999.0), ('笔记本电脑', 48998.0), ('台式机', 3699.0), ('安防', 399.0), ('智能家居', 6598.0))
+2026-03-18 11:06:14,154 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('MacBook Pro 16', Decimal('1')), ('佳能EOS R6 Mark II', Decimal('1')), ('雷蛇黑寡妇键盘', Decimal('1')), ('三星990 Pro固态硬盘', Decimal('1')), ('苹果iPad Pro', Decimal('1')))
+2026-03-18 11:06:24,273 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773803182.html', 'message': '已成功生成2023年9月份订单销售情况仪表盘'}
+2026-03-18 11:12:15,976 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:12:21,774 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:12:22,679 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:12:22,680 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:12:22,680 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:14:54,611 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:14:59,898 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:15:00,775 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:15:00,775 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:15:00,775 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:16:05,896 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:16:11,220 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:16:12,061 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:16:12,061 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:16:12,063 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:16:14,731 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:16:20,302 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:16:21,246 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:16:21,248 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:16:21,248 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:17:04,326 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:17:16,205 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:17:17,136 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:17:17,136 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:17:17,138 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:17:39,240 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:17:40,771 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773803182.html', 'message': '已成功生成2023年9月份订单销售情况仪表盘'}
+2026-03-18 11:19:27,803 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:19:29,262 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773803182.html', 'message': '已成功生成2023年9月份订单销售情况仪表盘'}
+2026-03-18 11:19:48,578 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:19:49,695 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 4999.0), ('2023-09-08', 1599.0), ('2023-09-12', 18999.0), ('2023-09-15', 1699.0), ('2023-09-15', 599.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 2999.0), ('2023-09-22', 5999.0), ('2023-09-25', 1299.0), ('2023-09-25', 29999.0), ('2023-09-28', 1299.0), ('2023-09-28', 15999.0), ('2023-09-30', 1299.0), ('2023-09-30', 399.0))
+2026-03-18 11:19:51,071 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('笔记本电脑', 48998.0), ('相机', 15999.0), ('平板', 8999.0), ('智能家居', 6598.0), ('手机', 5999.0), ('台式机', 3699.0), ('阅读器', 2999.0), ('游戏配件', 1898.0), ('办公', 1699.0), ('外设', 1299.0), ('网络', 1299.0), ('存储', 999.0), ('安防', 399.0))
+2026-03-18 11:19:52,647 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('MacBook Pro 16', Decimal('1')), ('佳能EOS R6 Mark II', Decimal('1')), ('雷蛇黑寡妇键盘', Decimal('1')), ('三星990 Pro固态硬盘', Decimal('1')), ('苹果iPad Pro', Decimal('1')))
+2026-03-18 11:20:02,627 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773804000.html"}', 'message': '成功生成2023年9月订单销售情况仪表盘'}
+2026-03-18 11:22:49,143 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:22:50,680 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773804000.html"}', 'message': '成功生成2023年9月订单销售情况仪表盘'}
+2026-03-18 11:23:36,117 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:23:38,046 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773804000.html"}', 'message': '成功生成2023年9月订单销售情况仪表盘'}
+2026-03-18 11:24:14,398 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:24:15,930 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773804000.html"}', 'message': '成功生成2023年9月订单销售情况仪表盘'}
+2026-03-18 11:24:56,133 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:24:57,618 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773804000.html"}', 'message': '成功生成2023年9月订单销售情况仪表盘'}
+2026-03-18 11:29:07,287 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:29:08,920 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773804000.html"}', 'message': '成功生成2023年9月订单销售情况仪表盘'}
+2026-03-18 11:33:57,313 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:33:58,940 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((16, 100884.0, 6305.25),)
+2026-03-18 11:34:00,696 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('笔记本电脑', 48998.0, 2), ('相机', 15999.0, 1), ('平板', 8999.0, 1), ('智能家居', 6598.0, 2), ('手机', 5999.0, 1), ('台式机', 3699.0, 1), ('阅读器', 2999.0, 1), ('游戏配件', 1898.0, 2), ('办公', 1699.0, 1), ('外设', 1299.0, 1), ('网络', 1299.0, 1), ('存储', 999.0, 1), ('安防', 399.0, 1))
+2026-03-18 11:34:02,661 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('中国', 16, 100884.0),)
+2026-03-18 11:34:04,843 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', Decimal('1'), 29999.0), ('MacBook Pro 16', Decimal('1'), 18999.0), ('佳能EOS R6 Mark II', Decimal('1'), 15999.0), ('苹果iPad Pro', Decimal('1'), 8999.0), ('OPPO Find X7 Ultra', Decimal('1'), 5999.0))
+2026-03-18 11:34:38,978 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:34:40,649 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((16, 100884.0, 6305.25),)
+2026-03-18 11:34:42,643 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('笔记本电脑', 48998.0, 2), ('相机', 15999.0, 1), ('平板', 8999.0, 1), ('智能家居', 6598.0, 2), ('手机', 5999.0, 1), ('台式机', 3699.0, 1), ('阅读器', 2999.0, 1), ('游戏配件', 1898.0, 2), ('办公', 1699.0, 1), ('外设', 1299.0, 1), ('网络', 1299.0, 1), ('存储', 999.0, 1), ('安防', 399.0, 1))
+2026-03-18 11:34:44,676 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('中国', 16, 100884.0),)
+2026-03-18 11:34:46,340 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', Decimal('1'), 29999.0), ('MacBook Pro 16', Decimal('1'), 18999.0), ('佳能EOS R6 Mark II', Decimal('1'), 15999.0), ('苹果iPad Pro', Decimal('1'), 8999.0), ('OPPO Find X7 Ultra', Decimal('1'), 5999.0))
+2026-03-18 11:35:23,221 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_count', 'total_sales', 'avg_order_value'], 'data': [{'order_count': '16', 'total_sales': '100884.0', 'avg_order_value': '6305.25'}]}, 'result': '一、详细分析\n    1 总体销售指标：\n        - 订单总数：16笔\n        - 总销售额：100,884.00元\n        - 平均订单金额：6,305.25元\n\n    2 品类销售分析：\n        - 销售额最高的品类是"笔记本电脑"(占比48.6%)，达到48,998.00元\n        - 其次是"相机"(15.9%)和"平板"(8.9%)\n        - 前三大品类合计贡献了73.4%的销售额\n\n    3 热销商品TOP 5：\n        1. 微星泉坦18：29,999.00元\n        2. MacBook Pro 16：18,999.00元\n        3. 佳能EOS R6 Mark II：15,999.00元\n        4. 苹果ipad Pro：8,999.00元\n        5. OPPO Find X7 Ultra：5,999.00元\n\n    4 地域分布：\n        - 所有订单均来自中国地区客户\n\n二、结论部分\n    1. 主要特点：\n        - 高单价电子产品是主要销售驱动力\n        - 单订单金额较高，平均超过6,000元\n        - 产品集中度较高，头部品类贡献了绝大部分销售额\n\n    2. 建议：\n        - 继续关注高端电子产品的市场需求\n        - 可考虑推出更多中高端产品组合\n        - 加强对其他地区市场的拓展', 'json': '{"status": "success", "message": "Analysis completed successfully"}'}
+2026-03-18 11:38:17,454 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:38:23,265 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:38:24,164 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:38:24,164 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:38:24,164 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:42:55,133 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:43:00,472 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:43:01,311 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:43:01,311 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:43:01,313 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:44:29,566 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:45:15,959 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:45:16,842 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:45:16,842 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:45:16,842 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:45:19,700 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:45:27,412 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_count', 'total_sales', 'avg_order_value'], 'data': [{'order_count': '16', 'total_sales': '100884.0', 'avg_order_value': '6305.25'}]}, 'result': '一、详细分析\n    1 总体销售指标：\n        - 订单总数：16笔\n        - 总销售额：100,884.00元\n        - 平均订单金额：6,305.25元\n\n    2 品类销售分析：\n        - 销售额最高的品类是"笔记本电脑"(占比48.6%)，达到48,998.00元\n        - 其次是"相机"(15.9%)和"平板"(8.9%)\n        - 前三大品类合计贡献了73.4%的销售额\n\n    3 热销商品TOP 5：\n        1. 微星泉坦18：29,999.00元\n        2. MacBook Pro 16：18,999.00元\n        3. 佳能EOS R6 Mark II：15,999.00元\n        4. 苹果ipad Pro：8,999.00元\n        5. OPPO Find X7 Ultra：5,999.00元\n\n    4 地域分布：\n        - 所有订单均来自中国地区客户\n\n二、结论部分\n    1. 主要特点：\n        - 高单价电子产品是主要销售驱动力\n        - 单订单金额较高，平均超过6,000元\n        - 产品集中度较高，头部品类贡献了绝大部分销售额\n\n    2. 建议：\n        - 继续关注高端电子产品的市场需求\n        - 可考虑推出更多中高端产品组合\n        - 加强对其他地区市场的拓展', 'json': '{"status": "success", "message": "Analysis completed successfully"}'}
+2026-03-18 11:48:11,395 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 11:48:12,797 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((4, 3, '2023-09-12', 9, 1, 18999.0, '银行卡', '已完成'), (13, 10, '2023-09-05', 31, 1, 999.0, '支付宝', '已完成'), (19, 16, '2023-09-22', 50, 1, 2999.0, '支付宝', '已完成'), (26, 23, '2023-09-15', 59, 1, 1699.0, '支付宝', '已完成'), (31, 28, '2023-09-30', 30, 1, 1299.0, '微信支付', '已完成'), (36, 33, '2023-09-25', 48, 1, 1299.0, '微信支付', '已完成'), (46, 43, '2023-09-08', 99, 1, 4999.0, '微信支付', '已完成'), (52, 49, '2023-09-28', 52, 1, 1299.0, '微信支付', '已完成'), (58, 55, '2023-09-20', 82, 1, 3699.0, '微信支付', '已完成'), (64, 61, '2023-09-18', 34, 1, 8999.0, '银行卡', '已完成'))
+2026-03-18 11:48:36,470 - ERROR - [app.ai.tool.mysql_tool] - 'structured_response'
+2026-03-18 11:50:50,947 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:50:56,639 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:50:57,689 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:50:57,689 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:50:57,690 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:51:38,626 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:51:43,974 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:51:44,744 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:51:44,744 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:51:44,744 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:52:04,777 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:52:10,146 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:52:11,113 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:52:11,113 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:52:11,114 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 11:52:52,024 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 11:52:57,037 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 11:52:57,795 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:52:57,795 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 11:52:57,797 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 13:33:31,103 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 13:33:32,128 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 13:33:32,128 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 13:33:32,130 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 13:33:45,796 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 13:33:46,697 - ERROR - [app.ai.tool.mysql_tool] - <400> InternalError.Algo.InvalidParameter: An assistant message with "tool_calls" must be followed by tool messages responding to each "tool_call_id". The following tool_call_ids did not have response messages: message[5].role
+2026-03-18 13:34:21,122 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 13:34:26,347 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 13:34:27,209 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 13:34:27,211 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 13:34:27,211 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 13:43:35,534 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-18 13:43:53,170 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-18 13:43:54,056 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 13:43:54,057 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-18 13:43:54,057 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-18 13:44:10,391 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 13:44:12,394 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((4, 3, '2023-09-12', 9, 1, 18999.0, '银行卡', '已完成', 'MacBook Pro 16', '笔记本电脑'), (94, 91, '2023-09-28', 18, 1, 15999.0, '银行卡', '已完成', '佳能EOS R6 Mark II', '相机'), (31, 28, '2023-09-30', 30, 1, 1299.0, '微信支付', '已完成', '雷蛇黑寡妇键盘', '外设'), (13, 10, '2023-09-05', 31, 1, 999.0, '支付宝', '已完成', '三星990 Pro固态硬盘', '存储'), (64, 61, '2023-09-18', 34, 1, 8999.0, '银行卡', '已完成', '苹果iPad Pro', '平板'), (82, 79, '2023-09-15', 46, 1, 599.0, '微信支付', '已完成', '索尼游戏手柄', '游戏配件'), (36, 33, '2023-09-25', 48, 1, 1299.0, '微信支付', '已完成', '赛睿游戏耳机', '游戏配件'), (19, 16, '2023-09-22', 50, 1, 2999.0, '支付宝', '已完成', '文石阅读器', '阅读器'), (52, 49, '2023-09-28', 52, 1, 1299.0, '微信支付', '已完成', '小米路由器AX9000', '网络'), (26, 23, '2023-09-15', 59, 1, 1699.0, '支付宝', '已完成', '爱普生打印机', '办公'))
+2026-03-18 13:45:19,808 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_id', 'user_id', 'order_date', 'product_id', 'quantity', 'total_amount', 'payment_method', 'order_status', 'product_name', 'category'], 'data': [{'order_id': '4', 'user_id': '3', 'order_date': '2023-09-12', 'product_id': '9', 'quantity': '1', 'total_amount': '18999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': 'MacBook Pro 16', 'category': '笔记本电脑'}, {'order_id': '94', 'user_id': '91', 'order_date': '2023-09-28', 'product_id': '18', 'quantity': '1', 'total_amount': '15999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '佳能EOS R6 Mark II', 'category': '相机'}, {'order_id': '31', 'user_id': '28', 'order_date': '2023-09-30', 'product_id': '30', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '雷蛇黑寡妇键盘', 'category': '外设'}, {'order_id': '13', 'user_id': '10', 'order_date': '2023-09-05', 'product_id': '31', 'quantity': '1', 'total_amount': '999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '三星990 Pro固态硬盘', 'category': '存储'}, {'order_id': '64', 'user_id': '61', 'order_date': '2023-09-18', 'product_id': '34', 'quantity': '1', 'total_amount': '8999.0', 'payment_method': '银行卡', 'order_status': '已完成', 'product_name': '苹果iPad Pro', 'category': '平板'}, {'order_id': '82', 'user_id': '79', 'order_date': '2023-09-15', 'product_id': '46', 'quantity': '1', 'total_amount': '599.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '索尼游戏手柄', 'category': '游戏配件'}, {'order_id': '36', 'user_id': '33', 'order_date': '2023-09-25', 'product_id': '48', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '赛睿游戏耳机', 'category': '游戏配件'}, {'order_id': '19', 'user_id': '16', 'order_date': '2023-09-22', 'product_id': '50', 'quantity': '1', 'total_amount': '2999.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '文石阅读器', 'category': '阅读器'}, {'order_id': '52', 'user_id': '49', 'order_date': '2023-09-28', 'product_id': '52', 'quantity': '1', 'total_amount': '1299.0', 'payment_method': '微信支付', 'order_status': '已完成', 'product_name': '小米路由器AX9000', 'category': '网络'}, {'order_id': '26', 'user_id': '23', 'order_date': '2023-09-15', 'product_id': '59', 'quantity': '1', 'total_amount': '1699.0', 'payment_method': '支付宝', 'order_status': '已完成', 'product_name': '爱普生打印机', 'category': '办公'}]}, 'result': '一、详细分析\n    1 订单总量及分布：\n        根据数据显示，2023年9月份共有10笔订单记录。订单日期分布从9月5日至9月30日，表明全月订单分布较为均衡。\n    2 单订额及平均订单金额：\n        最高订单金额为18,999.0元（MacBook Pro 16），最低为599.0元（索尼游戏手柝）。平均订单金额约为5,119.2元。\n    3 支付方式分析：\n        银行卡支付占比30%，微信支付占比30%，支付宝占比40%，表明支付宝为主要支付方式。\n    4 产品分类分析：\n        订单涉及多个分类，包括笔记本电脑、相机、外设、存储、平板、游戏配件、阅读器、网络和办公设备。其中游戏配件和外设类分别有2笔订单，表明该类产品有一定需求。\n\n二、结论部分\n    1. 订单总量和收入：\n        2023年9月份的订单总金额为51,192.0元，表现良好。\n    2. 支付方式优化建议：\n        建议增加对支付宝等支付方式的推广，以提高交易转化率。\n    3. 产品类型及目标客户：\n        高端电子产品如笔记本电脑和相机有较高单价，可针对数码爱好者和专业用户进行精准营销。', 'json': '{"title": {"text": "2023年9月订单销售情况", "subtext": "基于前10条订单数据的分析"}, "tooltip": {}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "legend": {"data": ["订单金额"]}, "xAxis": {"type": "category", "data": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"]}, "yAxis": {}, "series": [{"name": "订单金额", "type": "bar", "data": [18999, 15999, 1299, 999, 8999, 599, 1299, 2999, 1299, 1699]}]}'}
+2026-03-18 13:47:29,405 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 13:47:31,600 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-18 13:47:33,472 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('笔记本电脑', 48998.0), ('相机', 15999.0), ('平板', 8999.0), ('智能家居', 6598.0), ('手机', 5999.0), ('台式机', 3699.0), ('阅读器', 2999.0), ('游戏配件', 1898.0), ('办公', 1699.0), ('外设', 1299.0), ('网络', 1299.0), ('存储', 999.0), ('安防', 399.0))
+2026-03-18 13:47:35,612 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-18 13:47:37,263 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('支付宝', 3), ('银行卡', 5), ('微信支付', 8))
+2026-03-18 13:47:49,060 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773812867.html"}', 'message': '仪表盘已生成'}
+2026-03-18 13:48:45,657 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 13:48:47,271 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-18 13:49:03,293 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 14:00:30,544 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 14:00:32,749 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-18 14:00:39,047 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月订单销售情况分析", "subtext": "Top 10商品销售额"}, "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "legend": {"data": ["销售额"]}, "xAxis": {"type": "category", "data": ["微星泰坦18", "MacBook Pro 16", "佳能EOS R6 Mark II", "苹果iPad Pro", "OPPO Find X7 Ultra", "科沃斯扫地机器人", "小米迷你主机", "文石阅读器", "爱普生打印机", "小米智能门锁"]}, "yAxis": {"type": "value"}, "series": [{"name": "销售额", "type": "bar", "data": [29999, 18999, 15999, 8999, 5999, 4999, 3699, 2999, 1699, 1599]}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-18 14:01:11,245 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 14:01:13,244 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('微星泰坦18', 29999.0), ('MacBook Pro 16', 18999.0), ('佳能EOS R6 Mark II', 15999.0), ('苹果iPad Pro', 8999.0), ('OPPO Find X7 Ultra', 5999.0), ('科沃斯扫地机器人', 4999.0), ('小米迷你主机', 3699.0), ('文石阅读器', 2999.0), ('爱普生打印机', 1699.0), ('小米智能门锁', 1599.0))
+2026-03-18 14:01:18,898 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年9月订单销售情况分析", "subtext": "Top 10商品销售额"}, "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "legend": {"data": ["销售额"]}, "xAxis": {"type": "category", "data": ["微星泰坦18", "MacBook Pro 16", "佳能EOS R6 Mark II", "苹果iPad Pro", "OPPO Find X7 Ultra", "科沃斯扫地机器人", "小米迷你主机", "文石阅读器", "爱普生打印机", "小米智能门锁"]}, "yAxis": {"type": "value"}, "series": [{"name": "销售额", "type": "bar", "data": [29999, 18999, 15999, 8999, 5999, 4999, 3699, 2999, 1699, 1599]}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-18 14:01:30,273 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 14:01:32,023 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((32,),)
+2026-03-18 14:26:21,754 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-18 14:26:24,279 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('索尼85英寸电视', 19999.0), ('外星人m16 R2', 19999.0), ('索尼HT-A9音响', 14999.0), ('雷神Zero游戏本', 10999.0), ('戴尔XPS 13', 8999.0), ('iPhone 15 Pro', 7999.0), ('名龙堂剑龙', 7999.0), ('华为Mate 60 Pro', 6999.0), ('小米14 Ultra', 6499.0), ('戴尔OptiPlex', 4999.0))
+2026-03-18 14:26:31,859 - INFO - [app.ai.tool.mysql_tool] - {'json': '{"title": {"text": "2023年11月订单销售情况分析", "subtext": "Top 10商品销售额"}, "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}}, "toolbox": {"show": true, "feature": {"saveAsImage": {}}}, "legend": {"data": ["销售额"]}, "xAxis": {"type": "category", "data": ["索尼85英寸电视", "外星人m16 R2", "索尼HT-A9音响", "雷神Zero游戏本", "戴尔XPS 13", "iPhone 15 Pro", "名龙堂剑龙", "华为Mate 60 Pro", "小米14 Ultra", "戴尔OptiPlex"]}, "yAxis": {"type": "value"}, "series": [{"name": "销售额", "type": "bar", "data": [19999, 19999, 14999, 10999, 8999, 7999, 7999, 6999, 6499, 4999]}]}', 'code': 200, 'msg': '生成成功'}
+2026-03-19 09:33:55,972 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 09:33:58,237 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ((1, 1, '2023-11-15', 1, 1, 7999.0, '支付宝', '已完成', 'iPhone 15 Pro', '手机'), (10, 7, '2023-11-22', 2, 1, 6999.0, '支付宝', '已完成', '华为Mate 60 Pro', '手机'), (15, 12, '2023-11-08', 3, 1, 6499.0, '支付宝', '已完成', '小米14 Ultra', '手机'), (27, 24, '2023-11-20', 7, 1, 8999.0, '银行卡', '已完成', '戴尔XPS 13', '笔记本电脑'), (78, 75, '2023-11-22', 16, 1, 1499.0, '微信支付', '已完成', '华为FreeBuds Pro 3', '耳机'), (32, 29, '2023-11-15', 26, 1, 19999.0, '银行卡', '已完成', '索尼85英寸电视', '电视'), (5, 3, '2023-11-30', 29, 1, 899.0, '微信支付', '已完成', '罗技MX Master 3S鼠标', '外设'), (48, 45, '2023-11-30', 32, 1, 599.0, '微信支付', '已完成', '西部数据机械硬盘', '存储'), (66, 63, '2023-11-28', 43, 1, 899.0, '微信支付', '已完成', '飞利浦电动牙刷', '个护'), (22, 19, '2023-11-05', 55, 1, 999.0, '微信支付', '已完成', '小米Sound Pro', '音响'))
+2026-03-19 09:34:27,230 - ERROR - [app.ai.tool.mysql_tool] - 'structured_response'
+2026-03-19 09:34:51,076 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-19 09:35:12,443 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 09:35:13,727 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 09:35:13,727 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 09:35:13,728 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 09:35:23,199 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 09:35:24,740 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-19 09:35:31,973 - INFO - [app.ai.tool.mysql_tool] - {'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "柱状图分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "grid": { "left": "3%", "right": "4%", "bottom": "3%", "containLabel": true }, "toolbox": { "feature": { "saveAsImage": {} } }, "xAxis": { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "axisLabel": { "rotate": 45 } }, "yAxis": { "type": "value", "name": "销售额 (元)" }, "series": [ { "name": "日销售额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0] } ] }', 'code': 200, 'msg': '生成成功'}
+2026-03-19 09:35:49,643 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 09:36:09,902 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_date', 'daily_sales'], 'data': [{'order_date': '2023-09-05', 'daily_sales': '999.0'}, {'order_date': '2023-09-08', 'daily_sales': '6598.0'}, {'order_date': '2023-09-12', 'daily_sales': '18999.0'}, {'order_date': '2023-09-15', 'daily_sales': '2298.0'}, {'order_date': '2023-09-18', 'daily_sales': '8999.0'}, {'order_date': '2023-09-20', 'daily_sales': '3699.0'}, {'order_date': '2023-09-22', 'daily_sales': '8998.0'}, {'order_date': '2023-09-25', 'daily_sales': '31298.0'}, {'order_date': '2023-09-28', 'daily_sales': '17298.0'}, {'order_date': '2023-09-30', 'daily_sales': '1698.0'}]}, 'result': '一、详细分析\n    1 销售趋势分析：\n        从数据可以看出，2023年9月的订单销售额在不同日期波动较大。\n        最高日销售额出现在9月25日，达到31,298元，是当月的销售峰值。\n        其次为9月12日（18,999元）和9月28日（17,298元），均表现良好。\n        相对较低的销售日包括9月5日（999元）、9月15日（2,298元）和9月30日（1,698元），可能与促销活动缺失或用户活跃度下降有关。\n\n    2 销售集中度分析：\n        9月25日单日销售额占前十天总销售额的约34%，说明销售存在明显的集中现象，可能存在大额订单或促销活动推动。\n        多个中高销售额日期（如9月12日、18日、22日、28日）表明月中至月末整体消费活跃度较高。\n\n二、结论部分\n    1. 销售高峰集中在中下旬：\n        9月的销售主力集中在中下旬，尤其是9月25日前后，建议后续加强该时间段的营销资源投入。\n\n    2. 日销售额波动显著：\n        最高与最低日销售额相差超过30倍，反映出销售不稳定，可考虑通过定期促销、会员优惠等方式平滑销售曲线。\n\n    3. 潜在优化方向：\n        可进一步分析9月25日的大额订单来源（如客户群体、商品类别），复制成功经验到其他时段，提升整体销售稳定性。', 'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "柱状图分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "grid": { "left": "3%", "right": "4%", "bottom": "3%", "containLabel": true }, "toolbox": { "feature": { "saveAsImage": {} } }, "xAxis": { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "axisLabel": { "rotate": 45 } }, "yAxis": { "type": "value", "name": "销售额 (元)" }, "series": [ { "name": "日销售额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0] } ] }'}
+2026-03-19 09:36:46,030 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 09:36:47,967 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-19 09:36:54,079 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773884212.html"}', 'message': '仪表盘已成功生成'}
+2026-03-19 09:38:56,413 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\智能法律助手大模型项目构思方案.docx
+2026-03-19 09:38:56,459 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\智能法律助手大模型项目构思方案.docx
+2026-03-19 09:38:57,964 - WARNING - [app.ai.tool.mysql_tool] - my_chaterror: Package not found at 'D:\PROJECT\AGENT_APP\app\static\upload\智能法律助手大模型项目构思方案.docx'
+2026-03-19 09:39:24,079 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\test_table.docx
+2026-03-19 09:39:24,102 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx
+2026-03-19 09:42:14,728 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-19 09:42:21,109 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 09:42:22,057 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 09:42:22,058 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 09:42:22,058 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 09:46:24,075 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-19 09:46:29,731 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 09:46:30,798 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 09:46:30,798 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 09:46:30,798 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 09:51:31,266 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 09:51:50,246 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_date', 'daily_sales'], 'data': [{'order_date': '2023-09-05', 'daily_sales': '999.0'}, {'order_date': '2023-09-08', 'daily_sales': '6598.0'}, {'order_date': '2023-09-12', 'daily_sales': '18999.0'}, {'order_date': '2023-09-15', 'daily_sales': '2298.0'}, {'order_date': '2023-09-18', 'daily_sales': '8999.0'}, {'order_date': '2023-09-20', 'daily_sales': '3699.0'}, {'order_date': '2023-09-22', 'daily_sales': '8998.0'}, {'order_date': '2023-09-25', 'daily_sales': '31298.0'}, {'order_date': '2023-09-28', 'daily_sales': '17298.0'}, {'order_date': '2023-09-30', 'daily_sales': '1698.0'}]}, 'result': '一、详细分析\n    1 销售趋势分析：\n        从数据可以看出，2023年9月的订单销售额在不同日期波动较大。\n        最高日销售额出现在9月25日，达到31,298元，是当月的销售峰值。\n        其次为9月12日（18,999元）和9月28日（17,298元），均表现良好。\n        相对较低的销售日包括9月5日（999元）、9月15日（2,298元）和9月30日（1,698元），可能与促销活动缺失或用户活跃度下降有关。\n\n    2 销售集中度分析：\n        9月25日单日销售额占前十天总销售额的约34%，说明销售存在明显的集中现象，可能存在大额订单或促销活动推动。\n        多个中高销售额日期（如9月12日、18日、22日、28日）表明月中至月末整体消费活跃度较高。\n\n二、结论部分\n    1. 销售高峰集中在中下旬：\n        9月的销售主力集中在中下旬，尤其是9月25日前后，建议后续加强该时间段的营销资源投入。\n\n    2. 日销售额波动显著：\n        最高与最低日销售额相差超过30倍，反映出销售不稳定，可考虑通过定期促销、会员优惠等方式平滑销售曲线。\n\n    3. 潜在优化方向：\n        可进一步分析9月25日的大额订单来源（如客户群体、商品类别），复制成功经验到其他时段，提升整体销售稳定性。', 'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "柱状图分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "grid": { "left": "3%", "right": "4%", "bottom": "3%", "containLabel": true }, "toolbox": { "feature": { "saveAsImage": {} } }, "xAxis": { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "axisLabel": { "rotate": 45 } }, "yAxis": { "type": "value", "name": "销售额 (元)" }, "series": [ { "name": "日销售额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0] } ] }'}
+2026-03-19 09:56:56,340 - INFO - [app.ai.tool.mysql_tool] - 用户开始执行任务
+2026-03-19 09:56:56,436 - ERROR - [app.ai.tool.mysql_tool] - 用户不存在
+2026-03-19 09:57:18,757 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-19 09:57:18,759 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-19 09:57:21,764 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-19 09:57:24,983 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因：邮件发送失败'}
+2026-03-19 09:57:24,985 - INFO - [app.ai.tool.mysql_tool] - 用户21049121请求发送验证码，结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因：邮件发送失败'}
+2026-03-19 10:00:35,763 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-19 10:00:38,727 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因：邮件发送失败'}
+2026-03-19 10:00:38,728 - INFO - [app.ai.tool.mysql_tool] - 用户29539039541请求发送验证码，结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因：邮件发送失败'}
+2026-03-19 10:00:46,001 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-19 10:00:49,159 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因: 邮件发送失败'}
+2026-03-19 10:00:49,159 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954请求发送验证码，结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因: 邮件发送失败'}
+2026-03-19 10:01:02,765 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-19 10:01:04,902 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-19 10:01:05,948 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:01:05,950 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:01:21,284 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'7823'
+2026-03-19 10:16:24,152 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-19 10:17:03,682 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 10:17:04,763 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:17:04,764 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:17:04,764 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 10:43:34,080 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-19 10:43:34,083 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-19 10:44:38,258 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-19 10:44:45,516 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 10:44:46,671 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:44:46,671 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:44:46,673 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 10:47:22,243 - INFO - [app.ai.tool.mysql_tool] - 系统/sql/pg/echarts/analyze/file/dashboard智能体实例销毁成功
+2026-03-19 10:47:30,350 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 10:47:31,526 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:47:31,526 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:47:31,527 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 10:47:53,214 - INFO - [app.ai.tool.mysql_tool] - 初始化登录验证码智能体
+2026-03-19 10:47:54,233 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:47:54,233 - INFO - [app.ai.tool.mysql_tool] - 初始化智能分析智能体
+2026-03-19 10:47:54,234 - INFO - [app.ai.tool.mysql_tool] - 创建系统/sql/pg/echarts/analyze/file/dashboard智能体实例成功
+2026-03-19 10:48:05,348 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-19 10:48:07,710 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-19 10:48:08,735 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:48:08,758 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:48:13,808 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'7823'
+2026-03-19 10:48:28,573 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:48:30,029 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-19 10:48:36,117 - INFO - [app.ai.tool.mysql_tool] - {'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "每日销售总额分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "toolbox": { "show": true, "feature": { "saveAsImage": { "show": true, "title": "保存图片" } } }, "xAxis": { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"] }, "yAxis": { "type": "value", "axisLabel": { "formatter": "¥{value}" } }, "series": [ { "name": "日销售额", "type": "bar", "data": [999, 6598, 18999, 2298, 8999, 3699, 8998, 31298, 17298, 1698], "itemStyle": { "color": "#5470C6" } } ] }', 'code': 200, 'msg': '生成成功'}
+2026-03-19 10:48:53,916 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:49:10,747 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_date', 'daily_sales'], 'data': [{'order_date': '2023-09-05', 'daily_sales': '999.0'}, {'order_date': '2023-09-08', 'daily_sales': '6598.0'}, {'order_date': '2023-09-12', 'daily_sales': '18999.0'}, {'order_date': '2023-09-15', 'daily_sales': '2298.0'}, {'order_date': '2023-09-18', 'daily_sales': '8999.0'}, {'order_date': '2023-09-20', 'daily_sales': '3699.0'}, {'order_date': '2023-09-22', 'daily_sales': '8998.0'}, {'order_date': '2023-09-25', 'daily_sales': '31298.0'}, {'order_date': '2023-09-28', 'daily_sales': '17298.0'}, {'order_date': '2023-09-30', 'daily_sales': '1698.0'}]}, 'result': '一、详细分析\n    1 销售趋势分析：\n        从数据可以看出，2023年9月的订单销售呈现波动上升趋势。\n        销售额最低为9月5日的999元，最高为9月25日的31298元，相差超过30倍。\n        9月25日出现明显的销售高峰，可能是促销活动或节假日因素导致。\n    \n    2 关键销售节点：\n        高峰日：9月25日（31,298元）、9月12日（18,999元）、9月28日（17,298元）\n        低谷日：9月5日（999元）、9月15日（2,298元）、9月30日（1,698元）\n        高峰日销售额是低谷日的10倍以上，说明销售集中度较高。\n\n二、结论部分\n    1 销售特征总结：\n        本月销售呈现明显的峰值特征，集中在中下旬。\n        9月25日为最高峰，建议分析该日的营销活动、推广渠道等成功因素。\n\n    2 运营建议：\n        可考虑将促销活动安排在月中和月底，避开月初销售淡季。\n        分析高销售额日期的用户行为和商品组合，复制成功模式。', 'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "每日销售总额分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "toolbox": { "show": true, "feature": { "saveAsImage": { "show": true, "title": "保存图片" } } }, "xAxis": { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"] }, "yAxis": { "type": "value", "axisLabel": { "formatter": "¥{value}" } }, "series": [ { "name": "日销售额", "type": "bar", "data": [999, 6598, 18999, 2298, 8999, 3699, 8998, 31298, 17298, 1698], "itemStyle": { "color": "#5470C6" } } ] }'}
+2026-03-19 10:49:37,049 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:49:39,268 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-19 10:49:41,531 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('笔记本电脑', 48998.0), ('相机', 15999.0), ('平板', 8999.0), ('智能家居', 6598.0), ('手机', 5999.0), ('台式机', 3699.0), ('阅读器', 2999.0), ('游戏配件', 1898.0), ('办公', 1699.0), ('外设', 1299.0), ('网络', 1299.0), ('存储', 999.0), ('安防', 399.0))
+2026-03-19 10:49:43,334 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('MacBook Pro 16', Decimal('1')), ('佳能EOS R6 Mark II', Decimal('1')), ('雷蛇黑寡妇键盘', Decimal('1')), ('三星990 Pro固态硬盘', Decimal('1')), ('苹果iPad Pro', Decimal('1')), ('索尼游戏手柄', Decimal('1')), ('赛睿游戏耳机', Decimal('1')), ('文石阅读器', Decimal('1')), ('小米路由器AX9000', Decimal('1')), ('爱普生打印机', Decimal('1')))
+2026-03-19 10:49:54,529 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773888592.html"}', 'message': '仪表盘已成功生成，包含三个图表：每日销售额趋势、商品分类销售占比、Top10畅销商品。'}
+2026-03-19 10:51:33,360 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-19 10:51:33,361 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-19 10:51:33,370 - INFO - [app.ai.tool.mysql_tool] - 字节码：None
+2026-03-19 10:51:33,373 - WARNING - [app.ai.tool.mysql_tool] - 验证码错误或未获取: 'NoneType' object has no attribute 'decode'
+2026-03-19 10:51:56,407 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-19 10:51:58,631 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-19 10:51:59,747 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:51:59,748 - INFO - [app.ai.tool.mysql_tool] - 用户953903954@qq.com请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:52:18,797 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2953903954@qq.com',),)
+2026-03-19 10:52:20,852 - INFO - [app.ai.tool.mysql_tool] - 邮件发送成功
+2026-03-19 10:52:22,549 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:52:22,550 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com请求发送验证码，结果: {'data': '7823', 'code': '200', 'msg': '验证码发送成功'}
+2026-03-19 10:52:28,888 - INFO - [app.ai.tool.mysql_tool] - 字节码：b'7823'
+2026-03-19 10:52:42,757 - INFO - [app.ai.tool.mysql_tool] - 查询结果: ()
+2026-03-19 10:52:45,808 - INFO - [app.ai.tool.mysql_tool] - 智能体返回结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因：邮件发送失败'}
+2026-03-19 10:52:45,809 - INFO - [app.ai.tool.mysql_tool] - 用户21421412请求发送验证码，结果: {'data': '', 'code': '500', 'msg': '状态码 500，并说明失败原因：邮件发送失败'}
+2026-03-19 10:53:16,873 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:53:18,337 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-19 10:53:27,448 - INFO - [app.ai.tool.mysql_tool] - {'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "柱状图分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "grid": { "left": "3%", "right": "4%", "bottom": "3%", "containLabel": true }, "xAxis": [ { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "axisLabel": { "rotate": 45 } } ], "yAxis": [ { "type": "value", "name": "销售额 (元)", "axisLabel": { "formatter": "{value}" } } ], "series": [ { "name": "日销售额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0], "itemStyle": { "color": "#5470C6" }, "emphasis": { "focus": "series" } } ], "toolbox": { "show": true, "orient": "vertical", "left": "right", "top": "middle", "feature": { "mark": { "show": true }, "dataView": { "show": true, "readOnly": false }, "saveAsImage": { "show": true, "title": "保存图片" }, "magicType": { "show": true, "type": ["line", "bar"] } } } }', 'code': 200, 'msg': '生成成功'}
+2026-03-19 10:53:42,555 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:54:05,622 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'table': {'column_name': ['order_date', 'daily_sales'], 'data': [{'order_date': '2023-09-05', 'daily_sales': '999.0'}, {'order_date': '2023-09-08', 'daily_sales': '6598.0'}, {'order_date': '2023-09-12', 'daily_sales': '18999.0'}, {'order_date': '2023-09-15', 'daily_sales': '2298.0'}, {'order_date': '2023-09-18', 'daily_sales': '8999.0'}, {'order_date': '2023-09-20', 'daily_sales': '3699.0'}, {'order_date': '2023-09-22', 'daily_sales': '8998.0'}, {'order_date': '2023-09-25', 'daily_sales': '31298.0'}, {'order_date': '2023-09-28', 'daily_sales': '17298.0'}, {'order_date': '2023-09-30', 'daily_sales': '1698.0'}]}, 'result': '一、详细分析\n    1 销售趋势分析：\n        从图表数据可以看出，2023年9月的订单销售呈现出较大的波动性。整体上，销售额在不同日期之间差异显著。\n        最高销售额出现在9月25日，达到31,298元，是整个月中销售表现最好的一天。\n        其次为9月12日（18,999元）和9月28日（17,298元），也属于销售高峰日。\n        相对较低的销售日包括9月5日（999元）、9月15日（2,298元）和9月30日（1,698元），显示出明显的低谷特征。\n\n    2 销售分布特征：\n        多数销售高峰集中在中下旬，尤其是9月25日前后，可能与促销活动或节假日消费有关。\n        上旬仅有9月8日（6,598元）表现较好，其余时间销售较弱，说明月初消费者购买意愿相对较低。\n        中旬出现多个中等水平销售日，如9月18日（8,999元）、9月20日（3,699元）、9月22日（8,998元），显示市场活跃度逐步上升。\n\n二、结论部分\n    1 销售峰值分析：\n        9月25日为本月销售巅峰，可能是受到特定营销事件（如平台大促、限时折扣）驱动，建议进一步结合用户行为数据和促销记录进行验证。\n\n    2 营销策略建议：\n        可考虑将类似促销活动前置至月初，以提升全月整体销售均衡性。\n        针对低销售日（如9月5日、30日）开展定向优惠或会员专享活动，激活潜在消费需求。\n\n    3 数据监控优化：\n        建议后续按周进行销售趋势跟踪，并结合商品类别、用户群体细分维度深入分析，提升决策精准度。', 'json': '{ "title": { "text": "2023年9月订单销售情况", "subtext": "柱状图分析" }, "tooltip": { "trigger": "axis" }, "legend": { "data": ["日销售额"] }, "grid": { "left": "3%", "right": "4%", "bottom": "3%", "containLabel": true }, "xAxis": [ { "type": "category", "data": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "axisLabel": { "rotate": 45 } } ], "yAxis": [ { "type": "value", "name": "销售额 (元)", "axisLabel": { "formatter": "{value}" } } ], "series": [ { "name": "日销售额", "type": "bar", "data": [999.0, 6598.0, 18999.0, 2298.0, 8999.0, 3699.0, 8998.0, 31298.0, 17298.0, 1698.0], "itemStyle": { "color": "#5470C6" }, "emphasis": { "focus": "series" } } ], "toolbox": { "show": true, "orient": "vertical", "left": "right", "top": "middle", "feature": { "mark": { "show": true }, "dataView": { "show": true, "readOnly": false }, "saveAsImage": { "show": true, "title": "保存图片" }, "magicType": { "show": true, "type": ["line", "bar"] } } } }'}
+2026-03-19 10:54:20,973 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:54:26,769 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': 'http://localhost:8000/static/dashboard/dashboard_1773888864.html', 'message': '仪表盘已成功生成'}
+2026-03-19 10:55:31,735 - INFO - [app.ai.tool.mysql_tool] - 用户2953903954@qq.com开始执行任务
+2026-03-19 10:55:33,277 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('2023-09-05', 999.0), ('2023-09-08', 6598.0), ('2023-09-12', 18999.0), ('2023-09-15', 2298.0), ('2023-09-18', 8999.0), ('2023-09-20', 3699.0), ('2023-09-22', 8998.0), ('2023-09-25', 31298.0), ('2023-09-28', 17298.0), ('2023-09-30', 1698.0))
+2026-03-19 10:55:35,093 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('笔记本电脑', 48998.0), ('相机', 15999.0), ('平板', 8999.0), ('智能家居', 6598.0), ('手机', 5999.0), ('台式机', 3699.0), ('阅读器', 2999.0), ('游戏配件', 1898.0), ('办公', 1699.0), ('外设', 1299.0), ('网络', 1299.0), ('存储', 999.0), ('安防', 399.0))
+2026-03-19 10:55:36,781 - INFO - [app.ai.tool.mysql_tool] - 查询结果: (('MacBook Pro 16', Decimal('1')), ('佳能EOS R6 Mark II', Decimal('1')), ('雷蛇黑寡妇键盘', Decimal('1')), ('三星990 Pro固态硬盘', Decimal('1')), ('苹果iPad Pro', Decimal('1')), ('索尼游戏手柄', Decimal('1')), ('赛睿游戏耳机', Decimal('1')), ('文石阅读器', Decimal('1')), ('小米路由器AX9000', Decimal('1')), ('爱普生打印机', Decimal('1')))
+2026-03-19 10:55:48,826 - INFO - [app.ai.tool.mysql_tool] - {'code': 200, 'data': '{"type": "dashboard", "url": "http://localhost:8000/static/dashboard/dashboard_1773888946.html"}', 'message': '已成功生成2023年9月销售分析仪表盘，包含日销售额趋势、品类销售占比和Top10商品销量图表。'}
+2026-03-19 10:56:31,281 - INFO - [app.ai.tool.mysql_tool] - 上传文件：static/upload\test_table.docx
+2026-03-19 10:56:31,340 - INFO - [app.ai.tool.mysql_tool] - 文件路径：D:\PROJECT\AGENT_APP\app\static\upload\test_table.docx

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>数据仪表盘</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body>
+
+<h2 id="title"></h2>
+
+<div id="trend" style="width: 600px;height:400px;"></div>
+<div id="pie" style="width: 600px;height:400px;"></div>
+<div id="top" style="width: 600px;height:400px;"></div>
+
+<script>
+
+const data = {{data}};
+// 设置标题
+document.getElementById("title").innerText = data.title;
+// 遍历 charts
+data.charts.forEach(chart => {
+
+    if (chart.type === "line") {
+        var trend = echarts.init(document.getElementById('trend'));
+        trend.setOption({
+            title: { text: chart.title },
+            xAxis: { type: 'category', data: chart.x },
+            yAxis: { type: 'value' },
+            series: [{
+                data: chart.y,
+                type: 'line'
+            }]
+        });
+    }
+
+    if (chart.type === "pie") {
+        var pie = echarts.init(document.getElementById('pie'));
+        pie.setOption({
+            title: { text: chart.title },
+            series: [{
+                type: 'pie',
+                data: chart.data
+            }]
+        });
+    }
+
+    if (chart.type === "bar") {
+        var top = echarts.init(document.getElementById('top'));
+        top.setOption({
+            title: { text: chart.title },
+            xAxis: { type: 'category', data: chart.x },
+            yAxis: { type: 'value' },
+            series: [{
+                type: 'bar',
+                data: chart.y
+            }]
+        });
+    }
+
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+import json
+from pathlib import Path
+from langchain.tools import tool
+from pydantic import BaseModel, Field
+import time
+from app.utils.Logger import Logger
+
+logger = Logger.get_logger(__name__)
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+
+@tool("dashboard_tool")
+def dashboard_tool(data: dict) -> dict:
+    """
+    根据数据生成仪表盘HTML页面
+    """
+    try:
+        if "charts" not in data or not isinstance(data["charts"], list):
+            raise ValueError("data格式错误：缺少charts字段")
+
+        template_path = BASE_DIR / "static" / "template" / "dashboard.html"
+        save_dir = BASE_DIR / "static" / "dashboard"
+        save_dir.mkdir(parents=True, exist_ok=True)
+
+        with open(template_path, "r", encoding="utf-8") as f:
+            html = f.read()
+
+        html = html.replace(
+            "{{data}}",
+            json.dumps(data, ensure_ascii=False),
+            1
+        )
+
+        file_name = f"dashboard_{int(time.time())}.html"
+        file_path = save_dir / file_name
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(html)
+
+        url = f"http://localhost:8000/static/dashboard/{file_name}"
+
+        return {
+            "type": "dashboard",
+            "url": url
+        }
+
+    except Exception as e:
+        logger.error(f"生成仪表盘失败: {e}")
+        return {"type": "error", "msg": str(e)}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>数据仪表盘</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body>
+
+<h2 id="title"></h2>
+
+<div id="trend" style="width: 600px;height:400px;"></div>
+<div id="pie" style="width: 600px;height:400px;"></div>
+<div id="top" style="width: 600px;height:400px;"></div>
+
+<script>
+
+const data = {"title": "2023年9月销售分析仪表盘", "charts": [{"type": "bar", "title": "每日销售额趋势", "x": ["9月5日", "9月8日", "9月12日", "9月15日", "9月18日", "9月20日", "9月22日", "9月25日", "9月28日", "9月30日"], "y": [999, 6598, 18999, 2298, 8999, 3699, 8998, 31298, 17298, 1698]}, {"type": "pie", "title": "商品分类销售占比", "data": [{"name": "笔记本电脑", "value": 48998}, {"name": "相机", "value": 15999}, {"name": "平板", "value": 8999}, {"name": "智能家居", "value": 6598}, {"name": "手机", "value": 5999}, {"name": "台式机", "value": 3699}, {"name": "阅读器", "value": 2999}, {"name": "游戏配件", "value": 1898}, {"name": "办公", "value": 1699}, {"name": "外设", "value": 1299}, {"name": "网络", "value": 1299}, {"name": "存储", "value": 999}, {"name": "安防", "value": 399}]}, {"type": "bar", "title": "Top10畅销商品", "x": ["MacBook Pro 16", "佳能EOS R6 Mark II", "雷蛇黑寡妇键盘", "三星990 Pro固态硬盘", "苹果iPad Pro", "索尼游戏手柄", "赛睿游戏耳机", "文石阅读器", "小米路由器AX9000", "爱普生打印机"], "y": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}]};
+// 设置标题
+document.getElementById("title").innerText = data.title;
+// 遍历 charts
+data.charts.forEach(chart => {
+
+    if (chart.type === "line") {
+        var trend = echarts.init(document.getElementById('trend'));
+        trend.setOption({
+            title: { text: chart.title },
+            xAxis: { type: 'category', data: chart.x },
+            yAxis: { type: 'value' },
+            series: [{
+                data: chart.y,
+                type: 'line'
+            }]
+        });
+    }
+
+    if (chart.type === "pie") {
+        var pie = echarts.init(document.getElementById('pie'));
+        pie.setOption({
+            title: { text: chart.title },
+            series: [{
+                type: 'pie',
+                data: chart.data
+            }]
+        });
+    }
+
+    if (chart.type === "bar") {
+        var top = echarts.init(document.getElementById('top'));
+        top.setOption({
+            title: { text: chart.title },
+            xAxis: { type: 'category', data: chart.x },
+            yAxis: { type: 'value' },
+            series: [{
+                type: 'bar',
+                data: chart.y
+            }]
+        });
+    }
+
+});
+
+</script>
+
+</body>
+</html>
