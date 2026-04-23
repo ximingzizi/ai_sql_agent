@@ -1,66 +1,471 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="utf-8">
-    <title>数据仪表盘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{dashboard_title}}</title>
     <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <style>
+        :root {
+            --bg: #f4f6fb;
+            --surface: rgba(255, 255, 255, 0.82);
+            --surface-strong: #ffffff;
+            --text: #182230;
+            --muted: #667085;
+            --line: rgba(24, 34, 48, 0.08);
+            --accent: #0f766e;
+            --accent-soft: rgba(15, 118, 110, 0.10);
+            --shadow: 0 20px 60px rgba(15, 23, 42, 0.10);
+            --radius-lg: 28px;
+            --radius-md: 20px;
+            --radius-sm: 14px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(15, 118, 110, 0.12), transparent 28%),
+                radial-gradient(circle at top right, rgba(14, 116, 144, 0.14), transparent 24%),
+                linear-gradient(180deg, #fbfcfe 0%, #f4f6fb 100%);
+        }
+
+        .page-shell {
+            width: min(1440px, calc(100% - 40px));
+            margin: 0 auto;
+            padding: 28px 0 40px;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: minmax(0, 1.6fr) minmax(300px, 0.9fr);
+            gap: 24px;
+            padding: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.55);
+            border-radius: var(--radius-lg);
+            background:
+                linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(244, 248, 251, 0.86)),
+                linear-gradient(120deg, rgba(15, 118, 110, 0.07), rgba(14, 116, 144, 0.04));
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(18px);
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: auto -8% -40% auto;
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(15, 118, 110, 0.16), transparent 70%);
+            pointer-events: none;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            margin: 18px 0 12px;
+            font-size: clamp(32px, 4vw, 56px);
+            line-height: 1.02;
+            letter-spacing: -0.04em;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 680px;
+            color: var(--muted);
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .hero-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            align-content: start;
+        }
+
+        .metric {
+            padding: 18px 18px 16px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            background: rgba(255, 255, 255, 0.74);
+        }
+
+        .metric-label {
+            color: var(--muted);
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .metric-value {
+            margin-top: 10px;
+            font-size: clamp(24px, 3vw, 34px);
+            font-weight: 700;
+            letter-spacing: -0.04em;
+        }
+
+        .content {
+            margin-top: 26px;
+        }
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 18px;
+        }
+
+        .chart-card {
+            position: relative;
+            min-height: 420px;
+            padding: 22px;
+            border: 1px solid rgba(24, 34, 48, 0.06);
+            border-radius: var(--radius-md);
+            background: var(--surface-strong);
+            box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+        }
+
+        .chart-card-header {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .chart-card h2 {
+            margin: 0;
+            font-size: 20px;
+            line-height: 1.25;
+            letter-spacing: -0.03em;
+        }
+
+        .chart-badge {
+            flex-shrink: 0;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: #edf7f6;
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .chart-meta {
+            margin-bottom: 12px;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .chart-canvas {
+            width: 100%;
+            height: 320px;
+        }
+
+        .empty-state {
+            padding: 48px 28px;
+            border: 1px dashed rgba(24, 34, 48, 0.18);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.72);
+            color: var(--muted);
+            text-align: center;
+        }
+
+        @media (max-width: 960px) {
+            .hero {
+                grid-template-columns: 1fr;
+            }
+
+            .page-shell {
+                width: min(100% - 24px, 1440px);
+                padding-top: 16px;
+            }
+
+            .hero,
+            .chart-card {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-metrics {
+                grid-template-columns: 1fr;
+            }
+
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .chart-canvas {
+                height: 280px;
+            }
+        }
+    </style>
 </head>
 <body>
+    <script id="dashboard-data" type="application/json">{{dashboard_data_json}}</script>
 
-<h2 id="title"></h2>
+    <div class="page-shell">
+        <section class="hero">
+            <div>
+                <div class="eyebrow">Operational Dashboard</div>
+                <h1 id="dashboard-title"></h1>
+                <p id="dashboard-subtitle"></p>
+            </div>
+            <div class="hero-metrics">
+                <div class="metric">
+                    <div class="metric-label">图表数量</div>
+                    <div class="metric-value" id="metric-chart-count">0</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">图表类型</div>
+                    <div class="metric-value" id="metric-chart-types">0</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">数据点总数</div>
+                    <div class="metric-value" id="metric-point-count">0</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">更新时间</div>
+                    <div class="metric-value" id="metric-generated-at">--</div>
+                </div>
+            </div>
+        </section>
 
-<div id="trend" style="width: 600px;height:400px;"></div>
-<div id="pie" style="width: 600px;height:400px;"></div>
-<div id="top" style="width: 600px;height:400px;"></div>
+        <main class="content">
+            <section id="chart-grid" class="chart-grid"></section>
+        </main>
+    </div>
 
-<script>
+    <script>
+        const rawData = document.getElementById("dashboard-data").textContent;
+        const dashboardData = JSON.parse(rawData);
+        const chartInstances = [];
 
-const data = {{data}};
-// 设置标题
-document.getElementById("title").innerText = data.title;
-// 遍历 charts
-data.charts.forEach(chart => {
+        function formatCompactNumber(value) {
+            if (typeof value !== "number" || Number.isNaN(value)) {
+                return String(value ?? "--");
+            }
+            return new Intl.NumberFormat("zh-CN", {
+                notation: "compact",
+                maximumFractionDigits: 1
+            }).format(value);
+        }
 
-    if (chart.type === "line") {
-        var trend = echarts.init(document.getElementById('trend'));
-        trend.setOption({
-            title: { text: chart.title },
-            xAxis: { type: 'category', data: chart.x },
-            yAxis: { type: 'value' },
-            series: [{
-                data: chart.y,
-                type: 'line'
-            }]
+        function getChartPointCount(chart) {
+            if (Array.isArray(chart.data)) {
+                return chart.data.length;
+            }
+            if (Array.isArray(chart.x)) {
+                return chart.x.length;
+            }
+            if (Array.isArray(chart.y)) {
+                return chart.y.length;
+            }
+            return 0;
+        }
+
+        function getChartMeta(chart) {
+            const pointCount = getChartPointCount(chart);
+            if (chart.type === "pie") {
+                return `共 ${pointCount} 个分项`;
+            }
+            return `共 ${pointCount} 个数据点`;
+        }
+
+        function buildChartOption(chart) {
+            const base = {
+                color: ["#0f766e", "#14b8a6", "#0ea5e9", "#f59e0b", "#ef4444", "#8b5cf6"],
+                animationDuration: 700,
+                animationEasing: "cubicOut",
+                tooltip: {
+                    trigger: chart.type === "pie" ? "item" : "axis",
+                    backgroundColor: "rgba(15, 23, 42, 0.92)",
+                    borderWidth: 0,
+                    textStyle: { color: "#fff" }
+                },
+                textStyle: {
+                    fontFamily: "Segoe UI, PingFang SC, Microsoft YaHei, sans-serif"
+                }
+            };
+
+            if (chart.type === "line") {
+                return {
+                    ...base,
+                    grid: { left: 48, right: 18, top: 36, bottom: 36 },
+                    xAxis: {
+                        type: "category",
+                        boundaryGap: false,
+                        data: chart.x || [],
+                        axisLabel: { color: "#667085" },
+                        axisLine: { lineStyle: { color: "rgba(24,34,48,0.14)" } }
+                    },
+                    yAxis: {
+                        type: "value",
+                        axisLabel: { color: "#667085" },
+                        splitLine: { lineStyle: { color: "rgba(24,34,48,0.08)" } }
+                    },
+                    series: [{
+                        name: chart.title || "趋势",
+                        type: "line",
+                        smooth: true,
+                        showSymbol: false,
+                        lineStyle: { width: 4 },
+                        areaStyle: { opacity: 0.16 },
+                        data: chart.y || []
+                    }]
+                };
+            }
+
+            if (chart.type === "pie") {
+                return {
+                    ...base,
+                    legend: {
+                        bottom: 0,
+                        icon: "circle",
+                        textStyle: { color: "#667085" }
+                    },
+                    series: [{
+                        name: chart.title || "占比",
+                        type: "pie",
+                        radius: ["42%", "72%"],
+                        center: ["50%", "44%"],
+                        avoidLabelOverlap: true,
+                        itemStyle: {
+                            borderColor: "#fff",
+                            borderWidth: 4
+                        },
+                        label: {
+                            color: "#344054",
+                            formatter: "{b}\n{d}%"
+                        },
+                        data: chart.data || []
+                    }]
+                };
+            }
+
+            return {
+                ...base,
+                grid: { left: 48, right: 18, top: 36, bottom: 48 },
+                xAxis: {
+                    type: "category",
+                    data: chart.x || [],
+                    axisLabel: {
+                        color: "#667085",
+                        interval: 0,
+                        rotate: (chart.x || []).length > 6 ? 28 : 0
+                    },
+                    axisLine: { lineStyle: { color: "rgba(24,34,48,0.14)" } }
+                },
+                yAxis: {
+                    type: "value",
+                    axisLabel: { color: "#667085" },
+                    splitLine: { lineStyle: { color: "rgba(24,34,48,0.08)" } }
+                },
+                series: [{
+                    name: chart.title || "数值",
+                    type: "bar",
+                    barWidth: "48%",
+                    itemStyle: {
+                        borderRadius: [8, 8, 0, 0]
+                    },
+                    data: chart.y || []
+                }]
+            };
+        }
+
+        function createChartCard(chart, index) {
+            const card = document.createElement("article");
+            card.className = "chart-card";
+
+            const header = document.createElement("div");
+            header.className = "chart-card-header";
+
+            const title = document.createElement("h2");
+            title.textContent = chart.title || `图表 ${index + 1}`;
+
+            const badge = document.createElement("div");
+            badge.className = "chart-badge";
+            badge.textContent = chart.type || "chart";
+
+            header.appendChild(title);
+            header.appendChild(badge);
+
+            const meta = document.createElement("div");
+            meta.className = "chart-meta";
+            meta.textContent = getChartMeta(chart);
+
+            const canvas = document.createElement("div");
+            canvas.className = "chart-canvas";
+            canvas.id = `chart-canvas-${index}`;
+
+            card.appendChild(header);
+            card.appendChild(meta);
+            card.appendChild(canvas);
+            return { card, canvas };
+        }
+
+        function renderDashboard(data) {
+            const title = data.title || "数据仪表盘";
+            const charts = Array.isArray(data.charts) ? data.charts : [];
+            const chartGrid = document.getElementById("chart-grid");
+
+            document.getElementById("dashboard-title").textContent = title;
+            document.getElementById("dashboard-subtitle").textContent =
+                charts.length > 0
+                    ? "面向运营与分析场景的可视化总览，支持多图表同时呈现，并根据数据类型自动适配图表结构。"
+                    : "当前没有可展示的图表数据。";
+
+            document.getElementById("metric-chart-count").textContent = charts.length;
+            document.getElementById("metric-chart-types").textContent = new Set(charts.map(item => item.type)).size;
+            document.getElementById("metric-point-count").textContent = formatCompactNumber(
+                charts.reduce((sum, chart) => sum + getChartPointCount(chart), 0)
+            );
+            document.getElementById("metric-generated-at").textContent = new Date().toLocaleTimeString("zh-CN", {
+                hour: "2-digit",
+                minute: "2-digit"
+            });
+
+            if (charts.length === 0) {
+                chartGrid.innerHTML = '<div class="empty-state">暂无图表数据，请重新生成仪表盘。</div>';
+                return;
+            }
+
+            charts.forEach((chart, index) => {
+                const { card, canvas } = createChartCard(chart, index);
+                chartGrid.appendChild(card);
+
+                const chartInstance = echarts.init(canvas);
+                chartInstance.setOption(buildChartOption(chart));
+                chartInstances.push(chartInstance);
+            });
+        }
+
+        renderDashboard(dashboardData);
+        window.addEventListener("resize", () => {
+            chartInstances.forEach(instance => instance.resize());
         });
-    }
-
-    if (chart.type === "pie") {
-        var pie = echarts.init(document.getElementById('pie'));
-        pie.setOption({
-            title: { text: chart.title },
-            series: [{
-                type: 'pie',
-                data: chart.data
-            }]
-        });
-    }
-
-    if (chart.type === "bar") {
-        var top = echarts.init(document.getElementById('top'));
-        top.setOption({
-            title: { text: chart.title },
-            xAxis: { type: 'category', data: chart.x },
-            yAxis: { type: 'value' },
-            series: [{
-                type: 'bar',
-                data: chart.y
-            }]
-        });
-    }
-
-});
-
-</script>
-
+    </script>
 </body>
 </html>

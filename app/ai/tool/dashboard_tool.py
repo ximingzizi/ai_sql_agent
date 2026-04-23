@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 from langchain.tools import tool
-from pydantic import BaseModel, Field
 import time
 from app.utils.Logger import Logger
 
@@ -25,11 +24,10 @@ def dashboard_tool(data: dict) -> dict:
         with open(template_path, "r", encoding="utf-8") as f:
             html = f.read()
 
-        html = html.replace(
-            "{{data}}",
-            json.dumps(data, ensure_ascii=False),
-            1
-        )
+        # 统一改成模板占位，页面里再从 application/json 脚本节点读取。
+        payload = json.dumps(data, ensure_ascii=False).replace("</script>", "<\\/script>")
+        html = html.replace("{{dashboard_data_json}}", payload, 1)
+        html = html.replace("{{dashboard_title}}", data.get("title", "数据仪表盘"), 1)
 
         file_name = f"dashboard_{int(time.time())}.html"
         file_path = save_dir / file_name

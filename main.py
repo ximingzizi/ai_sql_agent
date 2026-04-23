@@ -66,3 +66,4 @@ if __name__ == "__main__":
     cmd = [sys.executable, "-m", "uvicorn", "main:app", "--reload", "--loop", "asyncio"]
     import subprocess
     subprocess.run(cmd)
+    # uvicorn main:app  --reload 

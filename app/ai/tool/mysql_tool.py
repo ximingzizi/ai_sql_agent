@@ -76,7 +76,7 @@ orders.product_id = products.product_id
 customer.user_id = customer_behavior.user_id
 customer_behavior.product_id = products.product_id
     """
-    
+    print("mysql_tool语句",sql)
     try:
         #创建链接
        con = pymysql.connect(

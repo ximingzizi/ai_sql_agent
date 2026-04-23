@@ -1,4 +1,3 @@
-import asyncio
 import os
 
 from app.utils.Logger import Logger
@@ -6,11 +5,10 @@ from app.ai.model.model import MyModel
 from app.ai.tool.mysql_tool import mysql_tool
 from app.ai.tool.dashboard_tool import dashboard_tool
 from langchain.agents import create_agent  
-from langgraph.checkpoint.postgres import PostgresSaver # postgres 记忆
+from langgraph.checkpoint.postgres import PostgresSaver
 from app.utils.permmision_middle import before_agent_middleware
 from langchain.messages import HumanMessage
 from app.ai.schema.dashboardResponse import  DashboardResponse
-
 from dotenv import load_dotenv
 load_dotenv()
 logger = Logger.get_logger(__name__)
@@ -22,12 +20,7 @@ class DashboardAgent():
     def __init__(self):
         self.model = MyModel.get_model()
         self.tools = self.__init_tools()
-
-    def __init_tools(self):
-        self.tools = [mysql_tool,dashboard_tool]
-        return self.tools
-    def answer(self, question: str, user_id: str):
-        prompt = """
+        self.prompt = """
             你是一个专业的数据分析智能体，负责生成“多图表仪表盘”。
 
             你拥有两个工具：
@@ -122,38 +115,99 @@ class DashboardAgent():
             4. 返回页面链接
 
         """
-        # 构建一个HUmanMessage对象
-        msg  = HumanMessage(content=question,user_id=user_id)
+
+    def __init_tools(self):
+        self.tools = [mysql_tool,dashboard_tool]
+        return self.tools
+
+    def _build_agent(self, pg):
+        return create_agent(
+            model=self.model,
+            system_prompt=self.prompt,
+            tools=self.tools,
+            checkpointer=pg,
+            response_format=DashboardResponse,
+            middleware=[before_agent_middleware],
+        )
+
+    # def answer(self, question: str, user_id: str):
+    #     """仪表盘分析
+    #     输入：
+    #     question: 用户需求
+    #     user_id: 用户id
+    #     """
+    #     # 构建一个HUmanMessage对象
+    #     msg  = HumanMessage(content=question,user_id=user_id)
+    #     user = os.getenv("POSTGRSSQL_USER")
+    #     password = os.getenv("POSTGRSSQL_PASSWORD")
+    #     host = os.getenv("POSTGRSSQL_HOST")
+    #     db = os.getenv("POSTGRSSQL_DATABASE")
+        
+    #     url = f"postgresql://{user}:{password}@{host}:5432/{db}?sslmode=disable"
+    #     # 创建一个智能体，采用postgressaver 处理
+    #     with PostgresSaver.from_conn_string(url) as pg:
+    #         pg.setup()
+    #         agent = self._build_agent(pg)
+    #         try:
+    #             res = agent.stream({"messages":[msg]},
+    #                                 {"configurable":{"thread_id":user_id}},
+    #                                 stream_mode="messages"
+    #                                 )
+    #             for mesg, metadata in res:
+    #                 if not hasattr(mesg,"tool_call_id"):
+    #                     yield mesg.content
+    #         except Exception as e:
+    #             logger.error(e)
+    #             yield f"执行出错: {str(e)}"
+
+    def answer_structured(self, question: str, user_id: str) -> dict:
+        """
+        返回结构化仪表盘结果，供 chat_router 统一封装前后端协议。
+        """
+        msg = HumanMessage(content=question, user_id=user_id)
         user = os.getenv("POSTGRSSQL_USER")
         password = os.getenv("POSTGRSSQL_PASSWORD")
         host = os.getenv("POSTGRSSQL_HOST")
         db = os.getenv("POSTGRSSQL_DATABASE")
-        
         url = f"postgresql://{user}:{password}@{host}:5432/{db}?sslmode=disable"
-        # 创建一个智能体，采用asyncpostgressaver 异步处理流式
+
         with PostgresSaver.from_conn_string(url) as pg:
             pg.setup()
-            
-            agent = create_agent(model=self.model,
-                                 system_prompt = prompt,
-                                 tools=self.tools,
-                                 checkpointer=pg,
-                                 response_format=DashboardResponse, # 返回数据格式
-                                 middleware=[before_agent_middleware]) # 中间件
-            try:
-                res = agent.invoke({"messages":[msg]},
-                                    {"configurable":{"thread_id":user_id}}
-                                    )
-                data = res["structured_response"].model_dump()
-                logger.info(data)
-                return data
-            except Exception as e:
-                logger.error(e)
-                return e
+            agent = self._build_agent(pg)
+            res = agent.invoke(
+                {"messages": [msg]},
+                {"configurable": {"thread_id": user_id}},
+            )
+            data = res["structured_response"].model_dump()
+            logger.info(f"dashboard structured result: {data}")
+            return data
+
+    def answer_sync(self, question: str, user_id: str) -> dict:
+        """
+        与其它子智能体保持统一接口，供主智能体同步调用。
+        """
+        msg = HumanMessage(content=question, user_id=user_id)
+        user = os.getenv("POSTGRSSQL_USER")
+        password = os.getenv("POSTGRSSQL_PASSWORD")
+        host = os.getenv("POSTGRSSQL_HOST")
+        db = os.getenv("POSTGRSSQL_DATABASE")
+        url = f"postgresql://{user}:{password}@{host}:5432/{db}?sslmode=disable"
+
+        with PostgresSaver.from_conn_string(url) as pg:
+            pg.setup()
+            agent = self._build_agent(pg)
+            res = agent.invoke(
+                {"messages": [msg]},
+                {"configurable": {"thread_id": user_id}},
+            )
+            data = res["structured_response"].model_dump()
+            return {
+                "content": data,
+            }
             
             
 if __name__ == "__main__":
     
     agent = DashboardAgent()
-    res = agent.answer("请使用mysql_tool工具查询2023年9月份销售数据，做一个仪表盘分析。", "2953903954@qq.com")
-    print(res)
+    for c in agent.answer("随机生成一个销售分析仪表盘","2953903954@qq.com"):
+        print(c,end='')

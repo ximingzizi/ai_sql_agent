@@ -1,5 +1,5 @@
 import asyncio
-
+from langchain.tools import tool
 from app.utils.Logger import Logger
 from app.ai.model.model import MyModel
 from app.ai.tool.mysql_tool import mysql_tool
@@ -42,7 +42,14 @@ class SqlQuestion:
     # 问答
     # question 问题    
     # #user_id 用户id
+
     async def answer(self, question: str, user_id: str):
+        """
+        你是一个SQL问答助手
+        Args:
+            question (str): 问题
+            user_id (str): 用户id
+        """
 
         res = self.agent.astream(
             {"messages": [{"role": "user", "content": question}]},

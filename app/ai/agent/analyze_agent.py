@@ -1,4 +1,3 @@
-import asyncio
 import os
 
 from app.utils.Logger import Logger
@@ -22,12 +21,16 @@ class AnalyzeAgent:
         logger.info("初始化智能分析智能体")
         self.model = MyModel.get_model()
         self.tools = self.__init_tools()
-
-    def __init_tools(self):
-        self.tools = [mysql_tool]
-        return self.tools
-    def answer(self, question: str, user_id: str):
-        prompt = """
+        user = os.getenv("POSTGRSSQL_USER")
+        password = os.getenv("POSTGRSSQL_PASSWORD")
+        host = os.getenv("POSTGRSSQL_HOST")
+        db = os.getenv("POSTGRSSQL_DATABASE")
+        url = f"postgresql://{user}:{password}@{host}:5432/{db}?sslmode=disable"
+        self.pg_cm = PostgresSaver.from_conn_string(url)
+        self.pg = self.pg_cm.__enter__()
+        # 首次使用时创建 checkpoint 相关表
+        self.pg.setup()
+        self.prompt = """
         一、你是一个数据分析智能体，你有一个工具：mysql_tool。
         二、工作流程：严格按照一下的步骤进行：
             1. 使用mysql_tool工具进行数据查询，结果以表格格式存入。
@@ -53,40 +56,78 @@ class AnalyzeAgent:
                     - 多表查询时使用正确的JOIN关系
                     - 只查询前10条记录
         """
-                # 构建一个HUmanMessage对象
-        msg  = HumanMessage(content=question,user_id=user_id)
-        user = os.getenv("POSTGRSSQL_USER")
-        password = os.getenv("POSTGRSSQL_PASSWORD")
-        host = os.getenv("POSTGRSSQL_HOST")
-        db = os.getenv("POSTGRSSQL_DATABASE")
-        
-        url = f"postgresql://{user}:{password}@{host}:5432/{db}?sslmode=disable"
-        # 创建一个智能体，采用asyncpostgressaver 异步处理流式
-        with PostgresSaver.from_conn_string(url) as pg:
-            pg.setup()
-            
-            agent = create_agent(model=self.model,
-                                 system_prompt = prompt,
-                                 tools=self.tools,
-                                 checkpointer=pg,
-                                 response_format=AnalyzeResponse, # 返回数据格式
-                                 middleware=[before_agent_middleware]) # 中间件
-            try:
-                res = agent.invoke({"messages":[msg]},
-                                    {"configurable":{"thread_id":user_id}}
-                                    )
-                data = res["structured_response"].model_dump()
-                if data is None:
-                    raise ValueError("structured_response missing")
+        self.agent = create_agent(model=self.model,
+                        system_prompt = self.prompt,
+                        tools=self.tools,
+                        checkpointer=self.pg,
+                        response_format=AnalyzeResponse, # 返回数据格式
+                        middleware=[before_agent_middleware]) # 中间件
+    def __init_tools(self):
+        self.tools = [mysql_tool]
+        return self.tools
 
-                logger.info(data)
-                return data
-            except Exception as e:
-                logger.error(e)
-                return e
-            
+    # def answer(self, question: str, user_id: str):
+    #     # 构建一个HUmanMessage对象
+    #     msg  = HumanMessage(content=question,user_id=user_id)
+
+    #     # thread_id = f"{user_id}:{chat_id}"
+    #     try:
+    #         res = self.agent.stream({"messages":[msg]},
+    #                             {"configurable":{"thread_id":user_id}},
+    #                             stream_mode="messages"
+    #                             )
+    #         for mesg, metadata in res:
+    #             if not hasattr(mesg,"tool_call_id"):
+    #                 content = mesg.content or ""
+    #                 if not content.strip():
+    #                     continue
+    #                 yield content
+    #         # return {"code":data.get("code", 500), "data":data, "msg":"未知错误"}
+                
+    #     except Exception as e:
+    #         logger.error(e)
+    #         yield f"执行出错: {str(e)}"
+    #     # except Exception as e:
+    #     #     logger.error(e)
+    #         # return {"code":500, "data":None, "msg":str(e)}
+
+    def answer_structured(self, question: str, user_id: str) -> dict:
+        """
+        返回结构化分析结果，供 chat_router 统一封装前后端协议。
+        """
+        msg = HumanMessage(content=question, user_id=user_id)
+        res = self.agent.invoke(
+            {"messages": [msg]},
+            {"configurable": {"thread_id": user_id}},
+        )
+        data = res["structured_response"].model_dump()
+        logger.info(f"analyze structured result: {data}")
+        return data
+
+    def answer_sync(self, question: str, user_id: str) -> dict:
+        """
+        与其它子智能体保持统一接口，供主智能体同步调用。
+        """
+        msg = HumanMessage(content=question, user_id=user_id)
+        res = self.agent.invoke(
+            {"messages": [msg]},
+            {"configurable": {"thread_id": user_id}},
+        )
+        data = res["structured_response"].model_dump()
+        return {
+            "content": data,
+        }
+
+    def close(self):
+        # 手动退出 context manager，释放数据库连接
+        if hasattr(self, "pg_cm"):
+            self.pg_cm.__exit__(None, None, None)
             
 if __name__ == "__main__":
     agent = AnalyzeAgent()
-    res = agent.answer("请使用mysql_tool工具查询3月销售数据，并返回echarts图表数据，并返回分析结果。", "2953903954@qq.com")
-    print(res)
+    try:
+        for res in agent.answer("请使用mysql_tool工具查询11月销售数据，并返回分析结果。", "2953903954@qq.com"):
+            print(res, end="")
+    finally:
+        # 程序结束前关闭数据库连接
+        agent.close()
