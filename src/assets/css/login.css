@@ -1,0 +1,7 @@
+.login-one{
+  background-image:url(../image/login.jpeg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  overflow:hidden;
+  height: 100% ;
+}
