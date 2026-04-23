@@ -1,4 +1,4 @@
-# AGENT_APP
+# SQL数据分析智能体
 
 基于 FastAPI + LangChain 的多智能体数据分析后端。当前版本采用 `supervisor + specialist agents` 架构，由主智能体统一编排数据库问答、图表生成、分析报告、仪表盘生成和文件分析，并通过统一协议返回给前端。
 
