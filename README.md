@@ -1,14 +1,13 @@
 # AGENT_APP
 
-基于 FastAPI + LangChain/LangGraph 的多智能体数据分析后端。当前版本采用 `supervisor + specialist agents` 架构，由主智能体统一编排数据库问答、图表生成、分析报告、仪表盘生成和文件分析，并通过统一协议返回给前端。
+基于 FastAPI + LangChain 的多智能体数据分析后端。当前版本采用 `supervisor + specialist agents` 架构，由主智能体统一编排数据库问答、图表生成、分析报告、仪表盘生成和文件分析，并通过统一协议返回给前端。
 
 ## 项目特性
 
 - 单一聊天入口：普通问答、图表、分析、仪表盘、文件分析都走统一聊天协议
 - 多智能体编排：主智能体负责拆解任务并调用子智能体
-- 流式返回：`/chat/stream` 通过 SSE 向前端持续推送状态和最终结果
-- 统一结果结构：前后端按 `type + payload` 渲染，避免多套分支协议
-- 文件上传支持：上传后可把 `file_path` 继续带入聊天链路
+- 流式返回：通过 SSE 向前端持续推送状态和最终结果
+- 统一结果结构：前后端按 `type + payload` 渲染
 - 可观测性：前端可看到本次请求实际调用了哪些子智能体
 
 ## 智能体架构
@@ -28,22 +27,6 @@
 - `analyze_specialist`：生成表格 + 分析结论 + 图表
 - `dashboard_specialist`：生成多图表仪表盘链接
 - `file_specialist`：分析上传文件并返回处理结果/下载地址
-
-## 技术栈
-
-### 后端
-
-- FastAPI
-- LangChain
-- LangGraph
-- PostgreSQL Checkpointer
-- Pydantic
-
-### 前端
-
-- Vue 2
-- Element UI
-- ECharts
 
 ## 目录结构
 
@@ -200,7 +183,7 @@ SSE 事件：
 
 ```bash
 pip install -r requirements.txt
-python main.py
+uvicorn main:app --reload
 ```
 
 默认启动地址：
@@ -209,16 +192,12 @@ python main.py
 
 ### 2. 启动前端
 
-当前配套前端为本地独立目录：
+当前配套前端在另一分支main_front：
 
-```text
-D:\PROJECT\Front\chat_agent
-```
 
 启动方式：
 
 ```bash
-cd D:\PROJECT\Front\chat_agent
 npm install
 npm run dev
 ```
@@ -244,12 +223,8 @@ npm run dev
 - 图表使用 `payload.chartJson`
 - 仪表盘使用 `payload.url`
 - 文件分析使用 `payload.downloadUrl`
-- 可观测信息只保留 `agentCalls`
+- 可观测信息保留 `agentCalls`
 
-## 适合继续扩展的方向
-
-- 增加更细的 agent 调用日志和执行时序
-- 为 supervisor 加任务路由评估与失败重试策略
-- 给仪表盘结果增加模板主题能力
-- 为文件分析补充更多格式支持
-- 增加接口测试和端到端联调脚本
+## 未修的BUG
+- 前端主要由AI编写，使用类型判断显示文本，会导致一些后端内容被吞掉
+- 仪表盘数据有时插入HTML会混乱，具体可到app/static/template/dashboard.html修改完善
