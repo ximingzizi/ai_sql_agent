@@ -227,4 +227,3 @@ npm run dev
 
 ## 未修的BUG
 - 前端主要由AI编写，使用类型判断显示文本，会导致一些后端内容被吞掉
-- 仪表盘数据有时插入HTML会混乱，具体可到app/static/template/dashboard.html修改完善
