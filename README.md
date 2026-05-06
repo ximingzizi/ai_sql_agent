@@ -225,5 +225,5 @@ npm run dev
 - 文件分析使用 `payload.downloadUrl`
 - 可观测信息保留 `agentCalls`
 
-## 未修的BUG
+## 已知BUG
 - 前端主要由AI编写，使用类型判断显示文本，会导致一些后端内容被吞掉
